@@ -1,4 +1,13 @@
+
+# common alias
 alias sr.="source ~/.bash_profile"
+alias pd="pwd"
+alias hy="history"
+alias ll="ls -la"
+
+# git alias
+alias got='git '
+alias get='git '
 alias gs='git status --short'
 alias gss='git status '
 alias ga='git add '
@@ -10,12 +19,14 @@ alias gl="git log --oneline --graph --decorate -10 $*"
 alias gll="git log --oneline --graph --decorate $*"
 alias gml="git log --oneline --graph --all --decorate -10 $*"
 
-alias got='git '
-alias get='git '
+# the fuck config
+eval $(thefuck --alias)
 
-alias pd="pwd"
-alias hy="history"
-alias ll="ls -la"
+# git branches and complete
+source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash
+source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
+GIT_PS1_SHOWDIRTYSTATE=true
+export PS1='\u@\h:\w$(__git_ps1)$ '
 
 # node
 export NODE_PATH=.
