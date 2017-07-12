@@ -12,6 +12,10 @@
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	type = cat-file -t
 	dump = cat-file -p
+	undo = reset --soft HEAD^
+	undo2 = reset --soft HEAD~2
+	undo3 = reset --soft HEAD~3
+	undo4 = reset --soft HEAD~4
 [color]
 	branch = auto
 	diff = auto
