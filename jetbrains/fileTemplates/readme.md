@@ -5,6 +5,9 @@
 import React, { Component, PropTypes } from 'react';
 
 class ${NAME} extends Component {
+  propTypes = {};
+  defaultProps = {};
+  
   render() {
     return (
       <div></div>
@@ -12,10 +15,8 @@ class ${NAME} extends Component {
   }
 }
 
-${NAME}.propTypes = {};
-${NAME}.defaultProps = {};
-
 export default ${NAME};
+
 ```
 
 ## React Stateless Component
@@ -23,12 +24,14 @@ export default ${NAME};
 import React, { PropTypes } from 'react';
 
 const ${NAME} = (props) => {
-	return (
-	    <div></div>
-	);
+  return (
+    <div></div>
+    );
 };
 
 ${NAME}.propTypes = {};
+${NAME}.defaultProps = {};
 
 export default ${NAME};
+
 ```

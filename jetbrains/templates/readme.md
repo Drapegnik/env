@@ -12,6 +12,7 @@ useful shortcuts for WebStorm
 
 ## how to import
 > just put `.xml` file into your WebStorm live templates folder
+
 * **macOS**: `~/Library/Preferences/WebStorm<version number>/templates`
 * **Linux**: `~\.WebStorm<version number>\config\templates`
 * **Windows**: `<HOME>\.WebStorm<version number>\config\templates`
@@ -60,9 +61,10 @@ $ARRAY$.filter($VAR$ => $END$)
 ```
 
 name | expression | default
---- | --- | --
+--- | --- | ---
 `ARRAY` | `jsArrayVariable()` | 
 `VAR` |  | `"item"`
+
 ***
 
 ### > `red`
@@ -98,11 +100,13 @@ for (let $INDEX$ = $ARRAY$.length - 1; $INDEX$ >= 0; $INDEX$--) {
   $END$
 }
 ```
+
 name | expression | default
---- | --- | --
+--- | --- | ---
 `INDEX` | `jsSuggestIndexName()` | `"i"`
 `ARRAY` | `jsArrayVariable()` | 
 `VAR` | `jsSuggestVariableName()` |
+
 ***
 
 ### > `forof`
@@ -125,6 +129,7 @@ if ($COND$) {
 
 ### > `ifel`
 > If, else construction
+
 ```js
 if ($COND$) {
   $END$
@@ -145,6 +150,7 @@ $COND$ ? $EXPR$ : $END$;
 
 ### > `rcc`
 > React Class Component
+
 ```js
 import React, { Component, PropTypes } from 'react';
 
@@ -166,6 +172,7 @@ export default $COMPONENT$;
 
 ### > `rfc`
 > React Function Component
+
 ```js
 import React, { PropTypes } from 'react'
 
@@ -188,9 +195,11 @@ export default $COMPONENT$;
 ```js
 $PROP$: PropTypes.$TYPE$$ISREQUIRED$,
 ```
+
 name | expression | default
---- | --- | --
+--- | --- | ---
 `ISREQUIRED` | | `".isRequired"`
+
 ***
 
 ### > `pts`
@@ -201,9 +210,11 @@ $COMPONENT$.propTypes = {
   $END$
 };
 ```
+
 name | expression | default
---- | --- | --
+--- | --- | ---
 `COMPONENT` | `fileNameWithoutExtension()` |
+
 ***
 
 ### > `df`
@@ -296,8 +307,9 @@ this.setState((prevState$PROPS$) => {
 });
 ```
 name | expression | default
---- | --- | --
+--- | --- | ---
 `PROPS` | | `", props"`
+
 ***
 
 ### > `cs`
@@ -393,8 +405,9 @@ shouldComponentUpdate(prevProps$PARAMS$) {
 }
 ```
 name | expression | default
---- | --- | --
+--- | --- | ---
 `PARAMS` | | `", nextState"`
+
 ***
 
 ### events callbacks
@@ -511,8 +524,9 @@ $END$
 ```
 
 name | expression | default
---- | --- | --
+--- | --- | ---
 `WHO` | `lowercaseAndDash(user())` |
+
 ***
 
 ### > `fx`
