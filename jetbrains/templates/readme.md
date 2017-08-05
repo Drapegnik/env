@@ -1,6 +1,8 @@
 # live templates
 useful shortcuts for WebStorm
 
+![](http://res.cloudinary.com/dzsjwgjii/image/upload/v1501964793/live.gif)
+
 ## table of contents
 * [JavaScript](#javascript)
 * [React](#react)
