@@ -1,11 +1,11 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes } from 'react';
 
 const ${NAME} = (props) => {
 	return (
 	    <div></div>
 	);
-}
+};
 
-${NAME}.propTypes = {}
+${NAME}.propTypes = {};
 
-export default ${NAME}
+export default ${NAME};
