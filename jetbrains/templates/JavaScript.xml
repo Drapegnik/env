@@ -6,13 +6,6 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="forin" value="for (let $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
-    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
   <template name="for" value="for (let $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  let $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
     <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="" alwaysStopAt="true" />
@@ -61,7 +54,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="=&gt;" value="const $NAME$ = ($PARAMS$) =&gt; { &#10;  return $END$;&#10;}" description="ES6 arrow function" toReformat="false" toShortenFQNames="true">
+  <template name="=&gt;" value="const $NAME$ = ($PARAMS$) =&gt; { &#10;  return $END$;&#10;};" description="ES6 arrow function" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -78,6 +71,29 @@
     </context>
   </template>
   <template name="fil" value="$ARRAY$.filter($VAR$ =&gt; $END$)" description="ES6 filter function" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="red" value="$ARRAY$.reduce(($ACC$, $CUR$) =&gt; $END$);" description="ES6 reduce function" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACC" expression="" defaultValue="&quot;acc&quot;" alwaysStopAt="true" />
+    <variable name="CUR" expression="" defaultValue="&quot;cur&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rfor" value="for (let $INDEX$ = $ARRAY$.length - 1; $INDEX$ &gt;= 0; $INDEX$--) {&#10;  let $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array in reverse order" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fe" value="$ARRAY$.forEach($VAR$ =&gt; $END$)" description="ES6 forEach function" toReformat="false" toShortenFQNames="true">
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <context>

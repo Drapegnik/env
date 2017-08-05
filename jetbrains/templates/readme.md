@@ -1,4 +1,15 @@
 # live templates
+useful shortcuts for WebStorm
+
+## table of contents
+* [JavaScript](#JavaScript)
+* [Other](#Other)
+
+## how to import
+> just put `.xml` file into your WebStorm live templates folder
+* **macOS**: `~/Library/Preferences/WebStorm<version number>/templates`
+* **Linux**: `~\.WebStorm<version number>\config\templates`
+* **Windows**: `<HOME>\.WebStorm<version number>\config\templates`
 
 ## [JavaScript](https://github.com/Drapegnik/env/blob/master/jetbrains/templates/JavaScript.xml)
 
@@ -8,6 +19,7 @@
 import $CLASS$ from '$MODULE$';
 $END$
 ```
+***
 
 ### > `imp`
 > ES6 Import
@@ -15,11 +27,19 @@ $END$
 import { $FUNC$ } from '$MODULE$';
 $END$
 ```
+***
 
 ### > `log`
 > console.log
 ```js
 console.log('$MESSAGE$: ', $PARAM$);
+```
+***
+
+### > `fe`
+> ES6 forEach function
+```js
+$ARRAY$.forEach($VAR$ => $END$)
 ```
 
 ### > `map`
@@ -38,12 +58,14 @@ name | expression | default
 --- | --- | --
 `ARRAY` | `jsArrayVariable()` | 
 `VAR` |  | `"item"`
+***
 
 ### > `red`
 > ES6 reduce function
 ```js
 $ARRAY$.reduce(($ACC$, $CUR$) => $END$);
 ```
+***
 
 ### > `=>`
 > ES6 arrow function
@@ -52,6 +74,7 @@ const $NAME$ = ($PARAMS$) => {
   return $END$;
 };
 ```
+***
 
 ### > `for`
 > Iterate elements of array
@@ -62,19 +85,20 @@ for (let $INDEX$ = 0; $INDEX$ < $ARRAY$.length; $INDEX$++) {
 }
 ```
 
+### > `rfor`
+> Iterate elements of array in reverse order
+```js
+for (let $INDEX$ = $ARRAY$.length - 1; $INDEX$ >= 0; $INDEX$--) {
+  let $VAR$ = $ARRAY$[$INDEX$];
+  $END$
+}
+```
 name | expression | default
 --- | --- | --
 `INDEX` | `jsSuggestIndexName()` | "i"
 `ARRAY` | `jsArrayVariable()` | 
 `VAR` | `jsSuggestVariableName()` |
-
-### > `forin`
-> Iterate (for..in)
-```js
-for (let $VAR$ in $ARRAY$) {
-  $END$
-}
-```
+***
 
 ### > `forof`
 > Iterate (for..of) - ES6
@@ -83,6 +107,7 @@ for (let $VAR$ of $ARRAY$) {
   $END$
 }
 ```
+***
 
 ### > `if`
 > If condition
@@ -91,6 +116,7 @@ if ($COND$) {
   $END$
 }
 ```
+***
 
 ### > `ifel`
 > If, else construction
@@ -101,12 +127,16 @@ if ($COND$) {
 
 }
 ```
+***
 
 ### > `ter`
 > Ternary operator
 ```js
 $COND$ ? $EXPR$ : $END$;
 ```
+***
+
+## [React](https://github.com/Drapegnik/env/blob/master/jetbrains/templates/React.xml)
 
 ## [Other](https://github.com/Drapegnik/env/blob/master/jetbrains/templates/User.xml)
 
@@ -119,14 +149,12 @@ $END$
 
 name | expression | default
 --- | --- | --
-`WHO` | `lowercaseAndDash(user())` | 
+`WHO` | `lowercaseAndDash(user())` |
+***
 
-### > `fi`
+### > `fx`
 > FIXME
 ```js
     // FIXME(@$WHO$): $TEXT$
 $END$
 ```
-
-
-
