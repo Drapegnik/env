@@ -306,6 +306,7 @@ this.setState((prevState$PROPS$) => {
   return {};
 });
 ```
+
 name | expression | default
 --- | --- | ---
 `PROPS` | | `", props"`
@@ -404,6 +405,7 @@ shouldComponentUpdate(prevProps$PARAMS$) {
   $END$
 }
 ```
+
 name | expression | default
 --- | --- | ---
 `PARAMS` | | `", nextState"`
