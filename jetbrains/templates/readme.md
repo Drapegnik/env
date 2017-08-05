@@ -1,5 +1,5 @@
 # live templates
-useful shortcuts for WebStorm
+useful shortcuts for WebStorm [live templates feature](https://www.jetbrains.com/help/webstorm/live-templates-2.html)
 
 ![](http://res.cloudinary.com/dzsjwgjii/image/upload/v1501964793/live.gif)
 
