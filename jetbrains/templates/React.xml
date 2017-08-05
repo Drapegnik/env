@@ -1,0 +1,319 @@
+<templateSet group="React">
+  <template name="rcc" value="import React, { Component, PropTypes } from 'react';&#10;&#10;class $COMPONENT$ extends Component {&#10;  propTypes = {};&#10;  &#10;  defaultProps = {};&#10;&#10;  render() {&#10;    return (&#10;      &lt;div&gt;$END$&lt;/div&gt;&#10;    );&#10;  }&#10;}&#10;&#10;export default $COMPONENT$;" description="React Class Component" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ctp" value="const { $PROPS$ } = this.props;" description="Props destructuring" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cdm" value="componentDidMount() {&#10;  $END$&#10;}" description="componentDidMount hook" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cdu" value="componentDidUpdate(prevProps$PARAMS$) {&#10;  $END$&#10;}" description="componentDidUpdate hook" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMS" expression="" defaultValue="&quot;, nextState&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cwr" value="componentWillReceiveProps(nextProps) {&#10;  $END$&#10;}" description="componentWillReceiveProps hook" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="rfc" value="import React, { PropTypes } from 'react'&#10;&#10;const $COMPONENT$ = (props) =&gt; {&#10;&#9;return (&#10;&#9;    &lt;div&gt;$END$&lt;/div&gt;&#10;&#9;);&#10;};&#10;&#10;$COMPONENT$.propTypes = {};&#10;&#10;$COMPONENT$.defaultProps = {};&#10;&#10;export default $COMPONENT$;" description="React Function Component" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cwum" value="componentWillUnmount() {&#10;  $END$&#10;}" description="componentWillUnmount hook" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="props" value="this.props" description="props" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spt" value="static propTypes = {&#10;  $PROP$: PropTypes.$TYPE$$ISREQUIRED$,&#10;  $END$&#10;};" description="static PropTypes" toReformat="true" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ISREQUIRED" expression="" defaultValue="&quot;.isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="pts" value="$COMPONENT$.propTypes = {&#10;  $PROP$: PropTypes.$TYPE$$ISREQUIRED$,&#10;  $END$&#10;};" description="Functional Component PropTypes" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ISREQUIRED" expression="" defaultValue="&quot;.isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pt" value="$PROP$: PropTypes.$TYPE$$ISREQUIRED$," description="PropType" toReformat="true" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ISREQUIRED" expression="" defaultValue="&quot;.isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+    </context>
+  </template>
+  <template name="ren" value="render() {&#10;  return (&#10;    &lt;div&gt;$END$&lt;/div&gt;&#10;  );&#10;}" description="render" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="scu" value="shouldComponentUpdate(prevProps$PARAMS$) {&#10;  $END$&#10;}" description="shouldComponentUpdate hook" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMS" expression="" defaultValue="&quot;, nextState&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="ss" value="this.setState({&#10;  $KEY$: $VALUE$,&#10;});" description="setState" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sdf" value="static defaultProps = {&#10;  $PROP$: $VALUE$,&#10;  $END$&#10;};" description="static defaultProps" toReformat="true" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cst" value="constructor(props) {&#10;  super(props);&#10;  $END$&#10;}" description="Component Constructor" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onkd" value="onKeyDown={$END$} " description="onKeyDown event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onkp" value="onKeyPress={$END$} " description="onKeyPress event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onku" value="onKeyUp={$END$} " description="onKeyUp event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onfs" value="onFocus={$END$} " description="onFocus event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onbl" value="onBlur={$END$} " description="onBlur event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onch" value="onChange={$END$} " description="onChange event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onip" value="onInput={$END$} " description="onInput event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="ondc" value="onDoubleClick={$END$} " description="onDoubleClick event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onmd" value="onMouseDown={$END$} " description="onMouseDown event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onml" value="onMouseLeave={$END$} " description="onMouseLeave event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onme" value="onMouseEnter={$END$} " description="onMouseEnter event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onmm" value="onMouseMove={$END$} " description="onMouseMove event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onmot" value="onMouseOut={$END$} " description="onMouseOut event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onmov" value="onMouseOver={$END$} " description="onMouseOver event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onmu" value="onMouseUp={$END$} " description="onMouseUp event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onsl" value="onSelect={$END$} " description="onSelect event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="onsc" value="onScroll={$END$} " description="onScroll event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="oner" value="onError={$END$} " description="onError event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cs" value="import classNames from 'classnames';" description="classnames import" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mstp" value="const mapStateToProps = state =&gt; ({&#10;  $PROP$: $END$,&#10;});" description="mapStateToProps function" toReformat="true" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="con" value="connect(mapStateToProps, mapDispatchToProps)($SELECTION$)" description="Surround with react-redux connect" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mstop" value="const mapStateToProps = (state, { $PROPS$ }) =&gt; {&#10;  return ({&#10;    $PROP$: $END$,&#10;  });&#10;};" description="mapStateToProps function with ownProps" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="wr" value="withRouter($SELECTION$)" description="Surround with react-router withRouter function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mdtp" value="const mapDispatchToProps = {&#10;  $PROP$: $END$,&#10;};" description="mapDispatchToProps object" toReformat="true" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mdtpf" value="const mapDispatchToProps = (dispatch, { $PROPS$ }) =&gt; ({&#10;  $PROP$: $END$,&#10;});" description="mapDispatchToProps function" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="df" value="$COMPONENT$.defaultProps = {&#10;  $PROP$: $VALUE$,&#10;  $END$&#10;};" description="Functional Component defaultProps" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ssp" value="this.setState((prevState$PROPS$) =&gt; ({&#10;  $KEY$: $VALUE$,&#10;}));" description="setState with prevState" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPS" expression="" defaultValue="&quot;, props&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ssr" value="this.setState((prevState$PROPS$) =&gt; {&#10;  $END$&#10;  return {};&#10;});" description="setState with return" toReformat="true" toShortenFQNames="true">
+    <variable name="PROPS" expression="" defaultValue="&quot;, props&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

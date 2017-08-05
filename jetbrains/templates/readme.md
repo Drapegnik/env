@@ -2,8 +2,13 @@
 useful shortcuts for WebStorm
 
 ## table of contents
-* [JavaScript](#JavaScript)
-* [Other](#Other)
+* [JavaScript](#javascript)
+* [React](#react)
+  * [common](#react)
+  * [redux methods](#redux-methods)
+  * [lifecycle hooks](#lifecycle-hooks)
+  * [events callbacks](#events-callbacks)
+* [Other](#other)
 
 ## how to import
 > just put `.xml` file into your WebStorm live templates folder
@@ -95,7 +100,7 @@ for (let $INDEX$ = $ARRAY$.length - 1; $INDEX$ >= 0; $INDEX$--) {
 ```
 name | expression | default
 --- | --- | --
-`INDEX` | `jsSuggestIndexName()` | "i"
+`INDEX` | `jsSuggestIndexName()` | `"i"`
 `ARRAY` | `jsArrayVariable()` | 
 `VAR` | `jsSuggestVariableName()` |
 ***
@@ -137,6 +142,364 @@ $COND$ ? $EXPR$ : $END$;
 ***
 
 ## [React](https://github.com/Drapegnik/env/blob/master/jetbrains/templates/React.xml)
+
+### > `rcc`
+> React Class Component
+```js
+import React, { Component, PropTypes } from 'react';
+
+class $COMPONENT$ extends Component {
+  propTypes = {};
+  
+  defaultProps = {};
+
+  render() {
+    return (
+      <div>$END$</div>
+    );
+  }
+}
+
+export default $COMPONENT$;
+```
+***
+
+### > `rfc`
+> React Function Component
+```js
+import React, { PropTypes } from 'react'
+
+const $COMPONENT$ = (props) => {
+  return (
+      <div>$END$</div>
+  );
+};
+
+$COMPONENT$.propTypes = {};
+
+$COMPONENT$.defaultProps = {};
+
+export default $COMPONENT$;
+```
+***
+
+### > `pt`
+> PropType
+```js
+$PROP$: PropTypes.$TYPE$$ISREQUIRED$,
+```
+name | expression | default
+--- | --- | --
+`ISREQUIRED` | | `".isRequired"`
+***
+
+### > `pts`
+> Functional Component PropTypes
+```js
+$COMPONENT$.propTypes = {
+  $PROP$: PropTypes.$TYPE$$ISREQUIRED$,
+  $END$
+};
+```
+name | expression | default
+--- | --- | --
+`COMPONENT` | `fileNameWithoutExtension()` |
+***
+
+### > `df`
+> Functional Component defaultProps
+```js
+$COMPONENT$.defaultProps = {
+  $PROP$: $VALUE$,
+  $END$
+};
+```
+***
+
+### > `spt`
+> static PropTypes
+```js
+static propTypes = {
+  $PROP$: PropTypes.$TYPE$$ISREQUIRED$,
+  $END$
+};
+```
+***
+
+### > `sdf`
+> static defaultProps
+```js
+static defaultProps = {
+  $PROP$: $VALUE$,
+  $END$
+};
+```
+***
+
+### > `props`
+```js
+this.props
+```
+***
+
+### > `ctp`
+> Props [destructuring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+```js
+const { $PROPS$ } = this.props;
+```
+***
+
+### > `cst`
+> Component Constructor
+```js
+constructor(props) {
+  super(props);
+  $END$
+}
+```
+***
+
+### > `ren`
+> render
+```js
+render() {
+  return (
+    <div>$END$</div>
+  );
+}
+```
+***
+
+### > `ss`
+> setState
+```js
+this.setState({
+  $KEY$: $VALUE$,
+});
+```
+***
+
+### > `ssp`
+> setState with prevState
+```js
+this.setState((prevState$PROPS$) => ({
+  $KEY$: $VALUE$,
+}));
+```
+
+### > `ssr`
+> setState with return
+```js
+this.setState((prevState$PROPS$) => {
+  $END$
+  return {};
+});
+```
+name | expression | default
+--- | --- | --
+`PROPS` | | `", props"`
+***
+
+### > `cs`
+> [classnames](https://github.com/JedWatson/classnames) import
+```js
+import classNames from 'classnames';
+```
+***
+
+### > `wr`
+> Surround with [react-router](https://github.com/ReactTraining/react-router) withRouter function
+```js
+withRouter($SELECTION$)
+```
+***
+
+### redux methods
+
+### > `mstp`
+> mapStateToProps function
+```js
+const mapStateToProps = state => ({
+  $PROP$: $END$,
+});
+```
+***
+
+### > `mstop`
+> mapStateToProps function with ownProps
+```js
+const mapStateToProps = (state, { $PROPS$ }) => {
+  return ({
+    $PROP$: $END$,
+  });
+};
+```
+***
+
+### > `mdtp`
+> mapDispatchToProps object
+```js
+const mapDispatchToProps = {
+  $PROP$: $END$,
+};
+```
+***
+
+### > `mdtpf`
+> mapDispatchToProps function
+```js
+const mapDispatchToProps = (dispatch, { $PROPS$ }) => ({
+  $PROP$: $END$,
+});
+```
+***
+
+### > `con`
+> Surround with [react-redux connect](https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options)
+```js
+connect(mapStateToProps, mapDispatchToProps)($SELECTION$)
+```
+
+### lifecycle hooks
+### > `cdm`
+```js
+componentDidMount() {
+  $END$
+}
+```
+***
+
+### > `cwr`
+```js
+componentWillReceiveProps(nextProps) {
+  $END$
+}
+```
+***
+
+### > `cdu`
+> 
+```js
+componentDidUpdate(prevProps$PARAMS$) {
+  $END$
+}
+```
+
+### > `scu`
+> 
+```js
+shouldComponentUpdate(prevProps$PARAMS$) {
+  $END$
+}
+```
+name | expression | default
+--- | --- | --
+`PARAMS` | | `", nextState"`
+***
+
+### events callbacks
+
+### > `onbl`
+```js
+onBlur={$END$} 
+```
+***
+
+### > `onch`
+```js
+onChange={$END$} 
+```
+***
+
+### > `ondc`
+```js
+onDoubleClick={$END$} 
+```
+***
+
+### > `oner`
+```js
+onError={$END$} 
+```
+***
+
+### > `onfs`
+```js
+onFocus={$END$} 
+```
+***
+
+### > `onip`
+```js
+onInput={$END$} 
+```
+***
+
+### > `onkd`
+```js
+onKeyDown={$END$} 
+```
+***
+
+### > `onkp`
+```js
+onKeyPress={$END$} 
+```
+***
+
+### > `onku`
+```js
+onKeyUp={$END$} 
+```
+***
+
+### > `onmd`
+```js
+onMouseDown={$END$} 
+```
+***
+
+### > `onme`
+```js
+onMouseEnter={$END$} 
+```
+***
+
+### > `onml`
+```js
+onMouseLeave={$END$} 
+```
+***
+
+### > `onmm`
+```js
+onMouseMove={$END$} 
+```
+***
+
+### > `onmot`
+```js
+onMouseOut={$END$} 
+```
+***
+
+### > `onmu`
+```js
+onMouseUp={$END$} 
+```
+***
+
+### > `onsc`
+```js
+onScroll={$END$} 
+```
+***
+
+### > `onsl`
+```js
+onSelect={$END$} 
+```
+***
 
 ## [Other](https://github.com/Drapegnik/env/blob/master/jetbrains/templates/User.xml)
 
