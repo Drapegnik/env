@@ -15,7 +15,7 @@ useful shortcuts for WebStorm [live templates feature](https://www.jetbrains.com
 * [Other](#other)
 
 ## how to import
-> just put `.xml` file into your WebStorm live templates folder
+> To start using live templates simply put `.xml` file into your WebStorm live templates folder
 
 * **macOS**: `~/Library/Preferences/WebStorm<version number>/templates`
 * **Linux**: `~\.WebStorm<version number>\config\templates`
@@ -88,7 +88,7 @@ const $NAME$ = ($PARAMS$) => {
 ***
 
 ### > `for`
-> Iterate elements of array
+> Iterate elements of an array
 ```js
 for (let $INDEX$ = 0; $INDEX$ < $ARRAY$.length; $INDEX$++) {
   let $VAR$ = $ARRAY$[$INDEX$];
@@ -97,7 +97,7 @@ for (let $INDEX$ = 0; $INDEX$ < $ARRAY$.length; $INDEX$++) {
 ```
 
 ### > `rfor`
-> Iterate elements of array in reverse order
+> Iterate elements of an array in a reverse order
 ```js
 for (let $INDEX$ = $ARRAY$.length - 1; $INDEX$ >= 0; $INDEX$--) {
   let $VAR$ = $ARRAY$[$INDEX$];
@@ -175,7 +175,7 @@ export default $COMPONENT$;
 ***
 
 ### > `rfc`
-> React Function Component
+> React Functional Component
 
 ```js
 import React, { PropTypes } from 'react'
