@@ -2,7 +2,7 @@
 useful shortcuts for WebStorm [live templates feature](https://www.jetbrains.com/help/webstorm/live-templates-2.html)
 
 <p align="center">
-  <img width="700px" src="http://res.cloudinary.com/dzsjwgjii/image/upload/v1501967979/rcc.gif"/>
+  <img width="700px" src="http://res.cloudinary.com/dzsjwgjii/image/upload/v1502207798/rcc-demo.gif"/>
 </p>
 
 ## table of contents
@@ -14,12 +14,16 @@ useful shortcuts for WebStorm [live templates feature](https://www.jetbrains.com
   * [events callbacks](#events-callbacks)
 * [Other](#other)
 
-## how to import
-> just put `.xml` file into your WebStorm live templates folder
+## how to use
+> To start using this live templates simply put `.xml` file into your WebStorm live templates folder
 
 * **macOS**: `~/Library/Preferences/WebStorm<version number>/templates`
 * **Linux**: `~\.WebStorm<version number>\config\templates`
 * **Windows**: `<HOME>\.WebStorm<version number>\config\templates`
+
+> Open `Preferences` -> `Editor` -> `Live Templates` and modify templates for you
+
+> Use `cmd+j` for fulltext search by templates abbreviation and description
 
 ## [JavaScript](https://github.com/Drapegnik/env/blob/master/jetbrains/templates/JavaScript.xml)
 
@@ -88,7 +92,7 @@ const $NAME$ = ($PARAMS$) => {
 ***
 
 ### > `for`
-> Iterate elements of array
+> Iterate elements of an array
 ```js
 for (let $INDEX$ = 0; $INDEX$ < $ARRAY$.length; $INDEX$++) {
   let $VAR$ = $ARRAY$[$INDEX$];
@@ -97,7 +101,7 @@ for (let $INDEX$ = 0; $INDEX$ < $ARRAY$.length; $INDEX$++) {
 ```
 
 ### > `rfor`
-> Iterate elements of array in reverse order
+> Iterate elements of an array in a reverse order
 ```js
 for (let $INDEX$ = $ARRAY$.length - 1; $INDEX$ >= 0; $INDEX$--) {
   let $VAR$ = $ARRAY$[$INDEX$];
@@ -175,7 +179,7 @@ export default $COMPONENT$;
 ***
 
 ### > `rfc`
-> React Function Component
+> React Functional Component
 
 ```js
 import React, { PropTypes } from 'react'
@@ -257,7 +261,7 @@ this.props
 ```
 ***
 
-### > `ctp`
+### > `cprops`
 > Props [destructuring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 ```js
 const { $PROPS$ } = this.props;
@@ -418,107 +422,27 @@ name | expression | default
 
 ### events callbacks
 
-### > `onbl`
-```js
-onBlur={$END$} 
-```
-***
-
-### > `onch`
-```js
-onChange={$END$} 
-```
-***
-
-### > `ondc`
-```js
-onDoubleClick={$END$} 
-```
-***
-
-### > `oner`
-```js
-onError={$END$} 
-```
-***
-
-### > `onfs`
-```js
-onFocus={$END$} 
-```
-***
-
-### > `onip`
-```js
-onInput={$END$} 
-```
-***
-
-### > `onkd`
-```js
-onKeyDown={$END$} 
-```
-***
-
-### > `onkp`
-```js
-onKeyPress={$END$} 
-```
-***
-
-### > `onku`
-```js
-onKeyUp={$END$} 
-```
-***
-
-### > `onmd`
-```js
-onMouseDown={$END$} 
-```
-***
-
-### > `onme`
-```js
-onMouseEnter={$END$} 
-```
-***
-
-### > `onml`
-```js
-onMouseLeave={$END$} 
-```
-***
-
-### > `onmm`
-```js
-onMouseMove={$END$} 
-```
-***
-
-### > `onmot`
-```js
-onMouseOut={$END$} 
-```
-***
-
-### > `onmu`
-```js
-onMouseUp={$END$} 
-```
-***
-
-### > `onsc`
-```js
-onScroll={$END$} 
-```
-***
-
-### > `onsl`
-```js
-onSelect={$END$} 
-```
-***
+shortcut | template
+--- | ---
+`onbl` | `onBlur={$END$} `
+`onch` | `onChange={$END$} `
+`onc` | `onClick={$END$} `
+`ondc` | `onDoubleClick={$END$} `
+`oner` | `onError={$END$} `
+`onf` | `onFocus={$END$} `
+`onin` | `onInput={$END$} `
+`onkd` | `onKeyDown={$END$} `
+`onkp` | `onKeyPress={$END$} `
+`onku` | `onKeyUp={$END$} `
+`onmd` | `onMouseDown={$END$} `
+`onme` | `onMouseEnter={$END$} `
+`onml` | `onMouseLeave={$END$} `
+`onmm` | `onMouseMove={$END$} `
+`onmot` | `onMouseOut={$END$} `
+`onmov` | `onMouseOver={$END$} `
+`onmu` | `onMouseUp={$END$} `
+`onsc` | `onScroll={$END$} `
+`onsl` | `onSelect={$END$} `
 
 ## [Other](https://github.com/Drapegnik/env/blob/master/jetbrains/templates/User.xml)
 
@@ -531,7 +455,7 @@ $END$
 
 name | expression | default
 --- | --- | ---
-`WHO` | `lowercaseAndDash(user())` |
+`WHO` | `decapitalize(user())` |
 
 ***
 
