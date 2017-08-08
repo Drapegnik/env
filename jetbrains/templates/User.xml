@@ -1,16 +1,16 @@
 <templateSet group="User">
   <template name="td" value="    // TODO(@$WHO$): $TEXT$&#10;$END$" description="TODO" toReformat="false" toShortenFQNames="true">
-    <variable name="WHO" expression="lowercaseAndDash(user())" defaultValue="" alwaysStopAt="true" />
+    <variable name="WHO" expression="decapitalize(user())" defaultValue="" alwaysStopAt="true" />
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JS_STATEMENT" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="fx" value="    // FIXME(@$WHO$): $TEXT$&#10;$END$" description="FIXME" toReformat="false" toShortenFQNames="true">
     <variable name="WHO" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JS_STATEMENT" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>

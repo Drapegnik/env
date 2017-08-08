@@ -1,11 +1,11 @@
 <templateSet group="React">
-  <template name="rcc" value="import React, { Component, PropTypes } from 'react';&#10;&#10;class $COMPONENT$ extends Component {&#10;  propTypes = {};&#10;  &#10;  defaultProps = {};&#10;&#10;  render() {&#10;    return (&#10;      &lt;div&gt;$END$&lt;/div&gt;&#10;    );&#10;  }&#10;}&#10;&#10;export default $COMPONENT$;" description="React Class Component" toReformat="true" toShortenFQNames="true">
+  <template name="rcc" value="import React, { Component, PropTypes } from 'react';&#10;&#10;class $COMPONENT$ extends Component {&#10;  propTypes = {};&#10;  &#10;  defaultProps = {};&#10;&#10;  render() {&#10;    return (&#10;      &lt;div&gt;$END$&lt;/div&gt;&#10;    );&#10;  }&#10;}&#10;&#10;export default $COMPONENT$;&#10;" description="React Class Component" toReformat="true" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ctp" value="const { $PROPS$ } = this.props;" description="Props destructuring" toReformat="true" toShortenFQNames="true">
+  <template name="cprops" value="const { $PROPS$ } = this.props;" description="Props destructuring" toReformat="true" toShortenFQNames="true">
     <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -36,7 +36,7 @@
       <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="rfc" value="import React, { PropTypes } from 'react'&#10;&#10;const $COMPONENT$ = (props) =&gt; {&#10;&#9;return (&#10;&#9;    &lt;div&gt;$END$&lt;/div&gt;&#10;&#9;);&#10;};&#10;&#10;$COMPONENT$.propTypes = {};&#10;&#10;$COMPONENT$.defaultProps = {};&#10;&#10;export default $COMPONENT$;" description="React Function Component" toReformat="true" toShortenFQNames="true">
+  <template name="rfc" value="import React, { PropTypes } from 'react'&#10;&#10;const $COMPONENT$ = (props) =&gt; {&#10;&#9;return (&#10;&#9;    &lt;div&gt;$END$&lt;/div&gt;&#10;&#9;);&#10;};&#10;&#10;$COMPONENT$.propTypes = {};&#10;&#10;$COMPONENT$.defaultProps = {};&#10;&#10;export default $COMPONENT$;&#10;" description="React Function Component" toReformat="true" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -148,7 +148,7 @@
       <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="onfs" value="onFocus={$END$} " description="onFocus event props" toReformat="true" toShortenFQNames="true">
+  <template name="onf" value="onFocus={$END$} " description="onFocus event props" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="false" />
@@ -169,7 +169,7 @@
       <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="onip" value="onInput={$END$} " description="onInput event props" toReformat="true" toShortenFQNames="true">
+  <template name="onin" value="onInput={$END$} " description="onInput event props" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="false" />
@@ -314,6 +314,13 @@
     <variable name="PROPS" expression="" defaultValue="&quot;, props&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="onc" value="onClick={$END$} " description="onClick event props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
 </templateSet>
