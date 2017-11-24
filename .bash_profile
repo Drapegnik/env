@@ -25,6 +25,9 @@ alias gl="git log --oneline --graph --decorate -10 $*"
 alias gll="git log --oneline --graph --decorate $*"
 alias gml="git log --oneline --graph --all --decorate -10 $*"
 
+# js
+alias fixmd='prettier --write $(find . -name "*.md" ! -path "*node_modules*")'
+
 # the fuck config
 eval $(thefuck --alias)
 
