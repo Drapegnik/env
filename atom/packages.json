@@ -1,0 +1,498 @@
+[
+	{
+		"name": "about",
+		"version": "1.7.8"
+	},
+	{
+		"name": "archive-view",
+		"version": "0.64.1"
+	},
+	{
+		"name": "atom-beautify",
+		"version": "0.30.9"
+	},
+	{
+		"name": "atom-dark-syntax",
+		"version": "0.28.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "atom-dark-ui",
+		"version": "0.53.0",
+		"theme": "ui"
+	},
+	{
+		"name": "atom-light-syntax",
+		"version": "0.29.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "atom-light-ui",
+		"version": "0.46.0",
+		"theme": "ui"
+	},
+	{
+		"name": "atom-transpose",
+		"version": "0.3.5"
+	},
+	{
+		"name": "autocomplete-atom-api",
+		"version": "0.10.5"
+	},
+	{
+		"name": "autocomplete-css",
+		"version": "0.17.4"
+	},
+	{
+		"name": "autocomplete-html",
+		"version": "0.8.3"
+	},
+	{
+		"name": "autocomplete-modules",
+		"version": "1.8.0"
+	},
+	{
+		"name": "autocomplete-plus",
+		"version": "2.40.0"
+	},
+	{
+		"name": "autocomplete-python",
+		"version": "1.10.5"
+	},
+	{
+		"name": "autocomplete-snippets",
+		"version": "1.11.2"
+	},
+	{
+		"name": "autoflow",
+		"version": "0.29.0"
+	},
+	{
+		"name": "autosave",
+		"version": "0.24.6"
+	},
+	{
+		"name": "background-tips",
+		"version": "0.27.1"
+	},
+	{
+		"name": "base16-tomorrow-dark-theme",
+		"version": "1.5.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "base16-tomorrow-light-theme",
+		"version": "1.5.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "bookmarks",
+		"version": "0.44.4"
+	},
+	{
+		"name": "bracket-matcher",
+		"version": "0.88.0"
+	},
+	{
+		"name": "busy-signal",
+		"version": "1.4.3"
+	},
+	{
+		"name": "clipboard-plus",
+		"version": "0.5.1"
+	},
+	{
+		"name": "command-palette",
+		"version": "0.42.0"
+	},
+	{
+		"name": "copy-path",
+		"version": "0.4.2"
+	},
+	{
+		"name": "dalek",
+		"version": "0.2.1"
+	},
+	{
+		"name": "deprecation-cop",
+		"version": "0.56.9"
+	},
+	{
+		"name": "dev-live-reload",
+		"version": "0.47.1"
+	},
+	{
+		"name": "docblockr",
+		"version": "0.13.5"
+	},
+	{
+		"name": "emmet",
+		"version": "2.4.3"
+	},
+	{
+		"name": "encoding-selector",
+		"version": "0.23.7"
+	},
+	{
+		"name": "exception-reporting",
+		"version": "0.42.0"
+	},
+	{
+		"name": "file-icons",
+		"version": "2.1.15"
+	},
+	{
+		"name": "find-and-replace",
+		"version": "0.215.0"
+	},
+	{
+		"name": "fuzzy-finder",
+		"version": "1.7.3"
+	},
+	{
+		"name": "git-diff",
+		"version": "1.3.6"
+	},
+	{
+		"name": "git-time-machine",
+		"version": "1.5.9"
+	},
+	{
+		"name": "github",
+		"version": "0.8.3"
+	},
+	{
+		"name": "go-to-line",
+		"version": "0.32.1"
+	},
+	{
+		"name": "grammar-selector",
+		"version": "0.49.8"
+	},
+	{
+		"name": "highlight-selected",
+		"version": "0.13.1"
+	},
+	{
+		"name": "hyperclick",
+		"version": "0.1.5"
+	},
+	{
+		"name": "image-view",
+		"version": "0.62.4"
+	},
+	{
+		"name": "incompatible-packages",
+		"version": "0.27.3"
+	},
+	{
+		"name": "intellij-idea-keymap",
+		"version": "0.2.3"
+	},
+	{
+		"name": "intentions",
+		"version": "1.1.5"
+	},
+	{
+		"name": "js-hyperclick",
+		"version": "1.12.2"
+	},
+	{
+		"name": "keybinding-resolver",
+		"version": "0.38.1"
+	},
+	{
+		"name": "language-babel",
+		"version": "2.81.1"
+	},
+	{
+		"name": "language-c",
+		"version": "0.58.1"
+	},
+	{
+		"name": "language-clojure",
+		"version": "0.22.4"
+	},
+	{
+		"name": "language-coffee-script",
+		"version": "0.49.3"
+	},
+	{
+		"name": "language-csharp",
+		"version": "0.14.3"
+	},
+	{
+		"name": "language-css",
+		"version": "0.42.7"
+	},
+	{
+		"name": "language-gfm",
+		"version": "0.90.2"
+	},
+	{
+		"name": "language-git",
+		"version": "0.19.1"
+	},
+	{
+		"name": "language-go",
+		"version": "0.44.3"
+	},
+	{
+		"name": "language-html",
+		"version": "0.48.5"
+	},
+	{
+		"name": "language-hyperlink",
+		"version": "0.16.3"
+	},
+	{
+		"name": "language-java",
+		"version": "0.27.6"
+	},
+	{
+		"name": "language-javascript",
+		"version": "0.127.6"
+	},
+	{
+		"name": "language-json",
+		"version": "0.19.1"
+	},
+	{
+		"name": "language-latex",
+		"version": "1.1.1"
+	},
+	{
+		"name": "language-less",
+		"version": "0.33.0"
+	},
+	{
+		"name": "language-make",
+		"version": "0.22.3"
+	},
+	{
+		"name": "language-mustache",
+		"version": "0.14.4"
+	},
+	{
+		"name": "language-objective-c",
+		"version": "0.15.1"
+	},
+	{
+		"name": "language-perl",
+		"version": "0.38.1"
+	},
+	{
+		"name": "language-php",
+		"version": "0.42.2"
+	},
+	{
+		"name": "language-property-list",
+		"version": "0.9.1"
+	},
+	{
+		"name": "language-python",
+		"version": "0.45.5"
+	},
+	{
+		"name": "language-ruby",
+		"version": "0.71.4"
+	},
+	{
+		"name": "language-ruby-on-rails",
+		"version": "0.25.2"
+	},
+	{
+		"name": "language-sass",
+		"version": "0.61.1"
+	},
+	{
+		"name": "language-shellscript",
+		"version": "0.25.4"
+	},
+	{
+		"name": "language-source",
+		"version": "0.9.0"
+	},
+	{
+		"name": "language-sql",
+		"version": "0.25.8"
+	},
+	{
+		"name": "language-text",
+		"version": "0.7.3"
+	},
+	{
+		"name": "language-todo",
+		"version": "0.29.3"
+	},
+	{
+		"name": "language-toml",
+		"version": "0.18.1"
+	},
+	{
+		"name": "language-typescript",
+		"version": "0.2.2"
+	},
+	{
+		"name": "language-xml",
+		"version": "0.35.2"
+	},
+	{
+		"name": "language-yaml",
+		"version": "0.31.1"
+	},
+	{
+		"name": "line-ending-selector",
+		"version": "0.7.4"
+	},
+	{
+		"name": "link",
+		"version": "0.31.3"
+	},
+	{
+		"name": "linter",
+		"version": "2.2.0"
+	},
+	{
+		"name": "linter-eslint",
+		"version": "8.4.0"
+	},
+	{
+		"name": "linter-ui-default",
+		"version": "1.6.10"
+	},
+	{
+		"name": "markdown-preview",
+		"version": "0.159.18"
+	},
+	{
+		"name": "metrics",
+		"version": "1.2.6"
+	},
+	{
+		"name": "notifications",
+		"version": "0.69.2"
+	},
+	{
+		"name": "one-dark-syntax",
+		"version": "1.8.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "one-dark-ui",
+		"version": "1.10.8",
+		"theme": "ui"
+	},
+	{
+		"name": "one-light-syntax",
+		"version": "1.8.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "one-light-ui",
+		"version": "1.10.8",
+		"theme": "ui"
+	},
+	{
+		"name": "open-on-github",
+		"version": "1.3.1"
+	},
+	{
+		"name": "package-generator",
+		"version": "1.1.1"
+	},
+	{
+		"name": "platformio-ide-terminal",
+		"version": "2.8.0"
+	},
+	{
+		"name": "prettier-atom",
+		"version": "0.46.0"
+	},
+	{
+		"name": "project-manager",
+		"version": "3.3.5"
+	},
+	{
+		"name": "python-indent",
+		"version": "1.1.4"
+	},
+	{
+		"name": "settings-view",
+		"version": "0.253.1-0"
+	},
+	{
+		"name": "snippets",
+		"version": "1.1.9"
+	},
+	{
+		"name": "solarized-dark-syntax",
+		"version": "1.1.2",
+		"theme": "syntax"
+	},
+	{
+		"name": "solarized-light-syntax",
+		"version": "1.1.2",
+		"theme": "syntax"
+	},
+	{
+		"name": "sort-lines",
+		"version": "0.18.0"
+	},
+	{
+		"name": "spell-check",
+		"version": "0.72.5"
+	},
+	{
+		"name": "status-bar",
+		"version": "1.8.14"
+	},
+	{
+		"name": "styleguide",
+		"version": "0.49.8"
+	},
+	{
+		"name": "symbols-view",
+		"version": "0.118.1"
+	},
+	{
+		"name": "sync-settings",
+		"version": "0.8.3"
+	},
+	{
+		"name": "tabs",
+		"version": "0.109.1"
+	},
+	{
+		"name": "teletype",
+		"version": "0.5.0"
+	},
+	{
+		"name": "timecop",
+		"version": "0.36.0"
+	},
+	{
+		"name": "tree-view",
+		"version": "0.221.3"
+	},
+	{
+		"name": "update-package-dependencies",
+		"version": "0.12.0"
+	},
+	{
+		"name": "welcome",
+		"version": "0.36.6"
+	},
+	{
+		"name": "whitespace",
+		"version": "0.37.5"
+	},
+	{
+		"name": "wrap-guide",
+		"version": "0.40.2"
+	},
+	{
+		"name": "zentabs",
+		"version": "0.8.9"
+	}
+]

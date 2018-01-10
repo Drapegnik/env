@@ -1,0 +1,96 @@
+{
+	"atom-beautify": {
+		"js": {
+			"disabled": true
+		}
+	},
+	"autocomplete-modules": {
+		"babelPluginModuleResolver": true,
+		"vendors": [
+			"node_modules",
+			"src"
+		]
+	},
+	"autocomplete-python": {
+		"useKite": false
+	},
+	"core": {
+		"ignoredNames": [
+			".git",
+			".hg",
+			".svn",
+			".DS_Store",
+			"._*",
+			"Thumbs.db",
+			"desktop.ini .idea"
+		],
+		"packagesWithKeymapsDisabled": [],
+		"telemetryConsent": "no",
+		"titleBar": "custom"
+	},
+	"editor": {
+		"fontSize": 15
+	},
+	"exception-reporting": {
+		"userId": "fb48ee73-24ba-4bba-923e-fba4fd36f4c6"
+	},
+	"file-icons": {},
+	"js-hyperclick": {},
+	"language-babel": {},
+	"linter-eslint": {
+		"eslintrcPath": ".eslintrc.js"
+	},
+	"linter-ui-default": {},
+	"platformio-ide-terminal": {
+		"core": {
+			"mapTerminalsTo": "Folder"
+		},
+		"style": {
+			"fontSize": "11",
+			"theme": "one-dark"
+		},
+		"toggles": {}
+	},
+	"prettier-atom": {
+		"formatOnSaveOptions": {
+			"enabled": true,
+			"showInStatusBar": true
+		},
+		"prettierEslintOptions": {},
+		"prettierOptions": {
+			"printWidth": 100,
+			"singleQuote": true,
+			"trailingComma": "es5"
+		},
+		"useEslint": true
+	},
+	"react": {},
+	"spell-check": {
+		"locales": [
+			"en-US",
+			"ru-RU"
+		]
+	},
+	"split-diff": {
+		"diffWords": true,
+		"ignoreWhitespace": true,
+		"leftEditorColor": "red",
+		"rightEditorColor": "green",
+		"scrollSyncType": "Vertical + Horizontal"
+	},
+	"sync-settings": {
+		"gistDescription": "My atom configs backup generated with http://atom.io/packages/sync-settings"
+	},
+	"terminal-plus": {
+		"core": {
+			"mapTerminalsTo": "Folder",
+			"mapTerminalsToAutoOpen": true
+		}
+	},
+	"welcome": {
+		"showOnStartup": false
+	},
+	"zentabs": {
+		"neverCloseUnsaved": true
+	}
+}
