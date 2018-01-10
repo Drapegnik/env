@@ -1,4 +1,3 @@
-
 # common alias
 alias sr.="source ~/.bash_profile"
 alias pd="pwd"
@@ -31,11 +30,19 @@ alias fixmd='prettier --write $(find . -name "*.md" ! -path "*node_modules*")'
 # the fuck config
 eval $(thefuck --alias)
 
-# git branches and complete
-source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash
-source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
+# bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+# cli prefix format
 GIT_PS1_SHOWDIRTYSTATE=true
-export PS1='\u@\h:\w$(__git_ps1)$ '
+export PS1='[\u@mbp \w$(__git_ps1)]\$ '
+
+# nvm
+export NVM_DIR=~/.nvm # don't forget mkdir ~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
 
 # node
 export NODE_PATH=.
