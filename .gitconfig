@@ -1,3 +1,8 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 [user]
 	name = Ivan Pazhitnykh
 	email = ivan.pazhitnykh@gmail.com
@@ -16,6 +21,7 @@
 	undo2 = reset --soft HEAD~2
 	undo3 = reset --soft HEAD~3
 	undo4 = reset --soft HEAD~4
+	score = shortlog -sne --no-merges
 [color]
 	branch = auto
 	diff = auto
