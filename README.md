@@ -1,6 +1,6 @@
 # env
 
-Repo for storing my environment settings, dotfiles and etc.
+Repo for storing my environment settings, dotfiles and etc. [`git.io/env`](https://git.io/env)
 
 * [`.bash_profile`](https://github.com/Drapegnik/env/blob/master/.bash_profile) - shortcats and package bash settings
 * [`.inputrc`](https://github.com/Drapegnik/env/blob/master/.inputrc) - extended bash configs
