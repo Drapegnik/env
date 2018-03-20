@@ -1,3 +1,5 @@
+source ~/.profile
+
 # common alias
 alias sr.="source ~/.bash_profile"
 alias pd="pwd"
@@ -47,3 +49,19 @@ source $(brew --prefix nvm)/nvm.sh
 # node
 export NODE_PATH=.
 export NODE_ENV=development
+
+# Shortcut function for creating custom git.io links.
+# See https://blog.github.com/2011-11-10-git-io-github-url-shortener/
+gitlink() {
+  # The first argument is the URL to shorten
+  VALUES="-F \"url=$1\""
+
+  # If a custom short code was requested, set the form value.
+  if [ -n "$2" ]; then VALUES="$VALUES -F \"code=$2\""; fi
+
+  # Send the request to GitHub and grab the Location header.
+  RESPONSE=$(eval "curl -i https://git.io $VALUES 2>&1" | grep Location)
+
+  # Remove the header name and echo only the generated short link.
+  echo "${RESPONSE//Location: /}"
+}
