@@ -32,24 +32,6 @@ alias fixmd='prettier --write $(find . -name "*.md" ! -path "*node_modules*")'
 # the fuck config
 eval $(thefuck --alias)
 
-# bash-completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
-
-# cli prefix format
-GIT_PS1_SHOWDIRTYSTATE=true
-export PS1='[\u@mbp \w$(__git_ps1)]\$ '
-
-# nvm
-export NVM_DIR=~/.nvm # don't forget mkdir ~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
-
-# node
-export NODE_PATH=.
-export NODE_ENV=development
-
 # Shortcut function for creating custom git.io links.
 # See https://blog.github.com/2011-11-10-git-io-github-url-shortener/
 gitlink() {
@@ -65,3 +47,29 @@ gitlink() {
   # Remove the header name and echo only the generated short link.
   echo "${RESPONSE//Location: /}"
 }
+
+# bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+# exercism bash-completion
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+  . ~/.config/exercism/exercism_completion.bash
+fi
+
+# cli prefix format
+GIT_PS1_SHOWDIRTYSTATE=true
+export PS1='[\u@mbp \w$(__git_ps1)]\$ '
+
+# nvm
+export NVM_DIR=~/.nvm # don't forget mkdir ~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
+
+# node
+export NODE_PATH=.
+export NODE_ENV=development
+
+# haskell stack packages
+export PATH=$PATH:~/.local/bin
