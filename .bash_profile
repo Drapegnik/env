@@ -26,6 +26,13 @@ alias gl="git log --oneline --graph --decorate -10 $*"
 alias gll="git log --oneline --graph --decorate $*"
 alias gml="git log --oneline --graph --all --decorate -10 $*"
 
+# hackellstack
+alias sb='stack build --fast --file-watch'
+# stack new with params
+sn() {
+  stack new $1 ~/.stack/templates/empty.hsfiles -p "path:rsschool-fp"
+}
+
 # js
 alias fixmd='prettier --write $(find . -name "*.md" ! -path "*node_modules*")'
 
