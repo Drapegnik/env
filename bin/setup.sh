@@ -21,5 +21,14 @@ echo "> copy stack files in:\t~/.stack"
 cp -R .stack/. ~/.stack
 
 echo "> install brew packages:"
-cd ~
 brew bundle
+
+echo "> install npm global packages:"
+sh bin/npm.sh
+
+echo "> add custom scripts"
+
+## https://github.com/chubin/cheat.sh
+mkdir ~/bin
+curl https://cht.sh/:cht.sh > ~/bin/cht.sh
+chmod +x ~/bin/cht.sh

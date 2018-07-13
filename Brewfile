@@ -1,10 +1,11 @@
 tap "homebrew/core"
+tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "caskroom/cask"
 brew "bash-completion"
 brew "exercism"
 brew "git"
+brew "git-recent"
 brew "haskell-stack"
 brew "mongodb", restart_service: true
 brew "nvm"
