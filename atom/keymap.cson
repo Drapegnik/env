@@ -38,3 +38,6 @@
 
 'atom-workspace atom-text-editor:not([mini])':
   'shift-cmd-L': 'editor:split-selections-into-lines'
+
+'.platform-darwin atom-text-editor':
+  'shift-cmd-D': 'find-and-replace:select-next'

@@ -1,5 +1,8 @@
 {
 	"atom-beautify": {
+		"ejs": {
+			"disabled": true
+		},
 		"html": {
 			"beautify_on_save": true
 		},
@@ -18,6 +21,9 @@
 		"useKite": false
 	},
 	"core": {
+		"disabledPackages": [
+			"linter-xo"
+		],
 		"ignoredNames": [
 			".git",
 			".hg",
@@ -32,7 +38,7 @@
 		"titleBar": "custom"
 	},
 	"editor": {
-		"fontSize": 16
+		"fontSize": 15
 	},
 	"exception-reporting": {
 		"userId": "fb48ee73-24ba-4bba-923e-fba4fd36f4c6"
@@ -41,6 +47,7 @@
 		"eslintrcPath": ".eslintrc.js"
 	},
 	"linter-ui-default": {},
+	"linter-xo": {},
 	"platformio-ide-terminal": {
 		"core": {
 			"mapTerminalsTo": "Folder"
@@ -53,6 +60,9 @@
 	"prettier-atom": {
 		"formatOnSaveOptions": {
 			"enabled": true,
+			"excludedGlobs": [
+				".ejs .css"
+			],
 			"showInStatusBar": true
 		},
 		"prettierOptions": {
@@ -60,7 +70,17 @@
 			"singleQuote": true,
 			"trailingComma": "es5"
 		},
-		"useEslint": true
+		"scopes": {
+			"css": [
+				"source.css source.less",
+				"source.css.less",
+				"source.scss",
+				"source.css.scss",
+				"source.css.postcss"
+			]
+		},
+		"useEslint": true,
+		"useStylelint": true
 	},
 	"spell-check": {
 		"locales": [
@@ -84,6 +104,7 @@
 			"mapTerminalsToAutoOpen": true
 		}
 	},
+	"tree-view": {},
 	"welcome": {
 		"showOnStartup": false
 	},

@@ -1,15 +1,15 @@
 [
 	{
 		"name": "about",
-		"version": "1.8.0"
+		"version": "1.9.1"
 	},
 	{
 		"name": "archive-view",
-		"version": "0.64.3"
+		"version": "0.65.1"
 	},
 	{
 		"name": "atom-beautify",
-		"version": "0.32.2"
+		"version": "0.33.0"
 	},
 	{
 		"name": "atom-dark-syntax",
@@ -30,6 +30,10 @@
 		"name": "atom-light-ui",
 		"version": "0.46.2",
 		"theme": "ui"
+	},
+	{
+		"name": "atom-quokka",
+		"version": "1.0.80"
 	},
 	{
 		"name": "atom-transpose",
@@ -53,15 +57,15 @@
 	},
 	{
 		"name": "autocomplete-modules",
-		"version": "2.0.0"
+		"version": "2.1.0"
 	},
 	{
 		"name": "autocomplete-plus",
-		"version": "2.40.5"
+		"version": "2.40.6"
 	},
 	{
 		"name": "autocomplete-python",
-		"version": "1.10.5"
+		"version": "1.10.9"
 	},
 	{
 		"name": "autocomplete-snippets",
@@ -69,7 +73,7 @@
 	},
 	{
 		"name": "autoflow",
-		"version": "0.29.3"
+		"version": "0.29.4"
 	},
 	{
 		"name": "autosave",
@@ -95,7 +99,7 @@
 	},
 	{
 		"name": "bracket-matcher",
-		"version": "0.89.1"
+		"version": "0.89.2"
 	},
 	{
 		"name": "busy-signal",
@@ -135,7 +139,7 @@
 	},
 	{
 		"name": "encoding-selector",
-		"version": "0.23.8"
+		"version": "0.23.9"
 	},
 	{
 		"name": "exception-reporting",
@@ -143,15 +147,15 @@
 	},
 	{
 		"name": "file-icons",
-		"version": "2.1.18"
+		"version": "2.1.23"
 	},
 	{
 		"name": "find-and-replace",
-		"version": "0.215.5"
+		"version": "0.215.12"
 	},
 	{
 		"name": "fuzzy-finder",
-		"version": "1.8.1"
+		"version": "1.8.2"
 	},
 	{
 		"name": "git-diff",
@@ -159,11 +163,11 @@
 	},
 	{
 		"name": "git-time-machine",
-		"version": "1.5.9"
+		"version": "2.1.0"
 	},
 	{
 		"name": "github",
-		"version": "0.12.0"
+		"version": "0.17.3"
 	},
 	{
 		"name": "go-to-line",
@@ -171,11 +175,11 @@
 	},
 	{
 		"name": "grammar-selector",
-		"version": "0.50.0"
+		"version": "0.50.1"
 	},
 	{
 		"name": "highlight-selected",
-		"version": "0.13.1"
+		"version": "0.14.0"
 	},
 	{
 		"name": "hyperclick",
@@ -203,7 +207,7 @@
 	},
 	{
 		"name": "js-hyperclick",
-		"version": "1.13.0"
+		"version": "1.13.3"
 	},
 	{
 		"name": "keybinding-resolver",
@@ -211,11 +215,11 @@
 	},
 	{
 		"name": "language-babel",
-		"version": "2.84.0"
+		"version": "2.85.0"
 	},
 	{
 		"name": "language-c",
-		"version": "0.59.3"
+		"version": "0.59.10"
 	},
 	{
 		"name": "language-clojure",
@@ -227,15 +231,15 @@
 	},
 	{
 		"name": "language-csharp",
-		"version": "1.0.1"
+		"version": "1.0.4"
 	},
 	{
 		"name": "language-css",
-		"version": "0.42.10"
+		"version": "0.42.11"
 	},
 	{
 		"name": "language-gfm",
-		"version": "0.90.3"
+		"version": "0.90.5"
 	},
 	{
 		"name": "language-git",
@@ -243,11 +247,15 @@
 	},
 	{
 		"name": "language-go",
-		"version": "0.45.3"
+		"version": "0.45.4"
+	},
+	{
+		"name": "language-haskell",
+		"version": "1.17.8"
 	},
 	{
 		"name": "language-html",
-		"version": "0.49.0"
+		"version": "0.50.1"
 	},
 	{
 		"name": "language-hyperlink",
@@ -255,15 +263,15 @@
 	},
 	{
 		"name": "language-java",
-		"version": "0.29.0"
+		"version": "0.30.0"
 	},
 	{
 		"name": "language-javascript",
-		"version": "0.128.5"
+		"version": "0.128.8"
 	},
 	{
 		"name": "language-json",
-		"version": "0.19.1"
+		"version": "0.19.2"
 	},
 	{
 		"name": "language-latex",
@@ -295,7 +303,7 @@
 	},
 	{
 		"name": "language-php",
-		"version": "0.43.2"
+		"version": "0.44.0"
 	},
 	{
 		"name": "language-property-list",
@@ -303,7 +311,7 @@
 	},
 	{
 		"name": "language-python",
-		"version": "0.49.4"
+		"version": "0.50.1"
 	},
 	{
 		"name": "language-ruby",
@@ -315,11 +323,11 @@
 	},
 	{
 		"name": "language-sass",
-		"version": "0.61.4"
+		"version": "0.62.0"
 	},
 	{
 		"name": "language-shellscript",
-		"version": "0.26.3"
+		"version": "0.26.6"
 	},
 	{
 		"name": "language-source",
@@ -343,7 +351,7 @@
 	},
 	{
 		"name": "language-typescript",
-		"version": "0.3.3"
+		"version": "0.3.4"
 	},
 	{
 		"name": "language-xml",
@@ -355,7 +363,7 @@
 	},
 	{
 		"name": "line-ending-selector",
-		"version": "0.7.5"
+		"version": "0.7.7"
 	},
 	{
 		"name": "link",
@@ -374,12 +382,16 @@
 		"version": "1.7.1"
 	},
 	{
+		"name": "linter-xo",
+		"version": "0.26.0"
+	},
+	{
 		"name": "markdown-preview",
 		"version": "0.159.20"
 	},
 	{
 		"name": "metrics",
-		"version": "1.2.6"
+		"version": "1.2.8"
 	},
 	{
 		"name": "notifications",
@@ -387,22 +399,22 @@
 	},
 	{
 		"name": "one-dark-syntax",
-		"version": "1.8.2",
+		"version": "1.8.3",
 		"theme": "syntax"
 	},
 	{
 		"name": "one-dark-ui",
-		"version": "1.11.0",
+		"version": "1.12.3",
 		"theme": "ui"
 	},
 	{
 		"name": "one-light-syntax",
-		"version": "1.8.2",
+		"version": "1.8.3",
 		"theme": "syntax"
 	},
 	{
 		"name": "one-light-ui",
-		"version": "1.11.0",
+		"version": "1.12.3",
 		"theme": "ui"
 	},
 	{
@@ -414,16 +426,20 @@
 		"version": "1.3.0"
 	},
 	{
+		"name": "pigments",
+		"version": "0.40.2"
+	},
+	{
 		"name": "platformio-ide-terminal",
-		"version": "2.8.1"
+		"version": "2.8.4"
 	},
 	{
 		"name": "prettier-atom",
-		"version": "0.53.0"
+		"version": "0.54.0"
 	},
 	{
 		"name": "project-manager",
-		"version": "3.3.5"
+		"version": "3.3.6"
 	},
 	{
 		"name": "python-indent",
@@ -431,20 +447,20 @@
 	},
 	{
 		"name": "settings-view",
-		"version": "0.254.2"
+		"version": "0.255.0"
 	},
 	{
 		"name": "snippets",
-		"version": "1.3.2"
+		"version": "1.3.3"
 	},
 	{
 		"name": "solarized-dark-syntax",
-		"version": "1.1.4",
+		"version": "1.1.5",
 		"theme": "syntax"
 	},
 	{
 		"name": "solarized-light-syntax",
-		"version": "1.1.4",
+		"version": "1.1.5",
 		"theme": "syntax"
 	},
 	{
@@ -453,7 +469,11 @@
 	},
 	{
 		"name": "spell-check",
-		"version": "0.73.3"
+		"version": "0.73.5"
+	},
+	{
+		"name": "split-diff",
+		"version": "1.5.2"
 	},
 	{
 		"name": "status-bar",
@@ -461,7 +481,7 @@
 	},
 	{
 		"name": "styleguide",
-		"version": "0.49.10"
+		"version": "0.49.11"
 	},
 	{
 		"name": "symbols-view",
@@ -473,11 +493,11 @@
 	},
 	{
 		"name": "tabs",
-		"version": "0.109.1"
+		"version": "0.109.2"
 	},
 	{
 		"name": "teletype",
-		"version": "0.13.0"
+		"version": "0.13.3"
 	},
 	{
 		"name": "timecop",
@@ -485,7 +505,7 @@
 	},
 	{
 		"name": "tree-view",
-		"version": "0.221.3"
+		"version": "0.222.0"
 	},
 	{
 		"name": "update-package-dependencies",
@@ -497,7 +517,7 @@
 	},
 	{
 		"name": "whitespace",
-		"version": "0.37.5"
+		"version": "0.37.6"
 	},
 	{
 		"name": "wrap-guide",
