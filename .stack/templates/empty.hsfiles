@@ -1,0 +1,55 @@
+{-# START_FILE package.yaml #-}
+name:                {{name}}
+version:             0.1.0.0
+github:              "{{github-username}}{{^github-username}}githubuser{{/github-username}}{{#path}}/{{path}}{{/path}}/{{name}}"
+license:             BSD3
+author:              "{{author-name}}{{^author-name}}Author name here{{/author-name}}"
+maintainer:          "{{author-email}}{{^author-email}}example@example.com{{/author-email}}"
+copyright:           "{{copyright}}{{^copyright}}{{year}}{{^year}}2018{{/year}} {{author-name}}{{^author-name}}Author name here{{/author-name}}{{/copyright}}"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            {{category}}{{^category}}Web{{/category}}
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/{{github-username}}{{^github-username}}githubuser{{/github-username}}{{#path}}/{{path}}{{/path}}/{{name}}#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+
+executables:
+  {{name}}-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - {{name}}
+
+{-# START_FILE Setup.hs #-}
+import Distribution.Simple
+main = defaultMain
+
+{-# START_FILE app/Main.hs #-}
+module Main where
+
+main :: IO ()
+main = pure()
+
+{-# START_FILE README.md #-}
+# {{name}}
+
+{-# START_FILE .gitignore #-}
+.stack-work/
+{{name}}.cabal
+*~

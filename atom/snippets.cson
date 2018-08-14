@@ -1,0 +1,210 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.source.js':
+
+## common
+  'Lodash Import':
+    'prefix': 'imlo'
+    'body': "import $1 from 'lodash/$1';$2"
+
+  'Import Common':
+    'prefix': 'imc'
+    'body': "import $1 from 'components/common/$1';$2"
+
+  'ES6 Import - default':
+    'prefix': 'im'
+    'body': "import $2 from '$1';$3"
+
+  'ES6 Import':
+    'prefix': 'imp'
+    'body': "import { $2 } from '$1';$3"
+
+  'console.log':
+    'prefix': 'log'
+    'body': "console.log('${1:log}: ', $2);"
+
+  'ES6 map function':
+    'prefix': 'map'
+    'body': '$1.map(({ $2 }) => ($3))$4'
+
+  'ES6 filter function':
+    'prefix': 'fil'
+    'body': '$1.filter(({ $2 }) => ($3))$4'
+
+  'ES6 arrow function':
+    'prefix': '=>'
+    'body': """
+      const $1 = ($2) => {
+        return $3;
+      };
+    """
+
+## React
+  'React imports':
+    'prefix': 'imr'
+    'body': """
+      import React, { Component } from 'react';
+      import PropTypes from 'prop-types';
+    """
+
+  'React Class Component':
+    'prefix': 'rcc'
+    'body': """
+      class $1 extends Component {
+        static propTypes = {};
+
+        state = {
+          $2
+        }
+
+        componentDidMount() {
+          $3
+        }
+
+        render() {
+          return (
+            <div>$4</div>
+          );
+        }
+      }
+
+      export default $1;
+    """
+
+  'React Functional Component':
+    'prefix': 'rfc'
+    'body': """
+      const $1 = (props) => {
+        return (
+            <div>$2</div>
+        );
+      };
+
+      $1.propTypes = {};
+
+      $1.defaultProps = {};
+
+      export default $1;
+    """
+
+  'Props destructuring':
+    'prefix': 'cprops'
+    'body': 'const { $1 } = this.props;'
+
+  'render':
+    'prefix': 'ren'
+    'body': """
+      render() {
+        return (
+          <div>$1</div>
+        );
+      }
+    """
+
+  'setState':
+    'prefix': 'ss'
+    'body': """
+      this.setState({
+        $1: $2,
+      });
+    """
+
+  'classnames import':
+    'prefix': 'cn'
+    'body': "import cn from 'classnames';"
+
+  'propTypes import':
+    'prefix': 'pt'
+    'body': "import PropTypes from 'prop-types';"
+
+## Redux
+  'Import connect':
+    'prefix': 'imco'
+    'body': "import { connect } from 'react-redux';$1"
+
+  'Redux: mapStateToProps function':
+    'prefix': 'mstp'
+    'body': """
+      const mapStateToProps = state => ({
+        $1: $2,
+      });
+    """
+
+  'Redux: mapStateToProps function with ownProps':
+    'prefix': 'mstop'
+    'body': """
+      const mapStateToProps = (state, { $1 }) => {
+        return ({
+          $2: $3,
+        });
+      };
+    """
+
+  'Redux: mapDispatchToProps object':
+    'prefix': 'mdtp'
+    'body': """
+      const mapDispatchToProps = {
+        $1: $2,
+      };
+    """
+
+  'Redux: mapDispatchToProps function':
+    'prefix': 'mdtpf'
+    'body': """
+      const mapDispatchToProps = (dispatch, { $1 }) => ({
+        $2: $3,
+      });
+    """
+
+  'Redux: react-redux connect':
+    'prefix': 'con'
+    'body': 'connect(${1:mapStateToProps}, ${2:mapDispatchToProps})($3'
+
+## React lifecycle hooks
+  'componentDidMount':
+    'prefix': 'cdm'
+    'body': """
+      componentDidMount() {
+        $1
+      }
+    """
+
+  # '':
+  #   'prefix': ''
+  #   'body': ''
+  #
+  # '':
+  #   'prefix': ''
+  #   'body': ''
+  #
+  # '':
+  #   'prefix': ''
+  #   'body': ''
+  #
+  # '':
+  #   'prefix': ''
+  #   'body': ''
+  #
+  # '':
+  #   'prefix': ''
+  #   'body': ''

@@ -1,0 +1,530 @@
+[
+	{
+		"name": "about",
+		"version": "1.9.1"
+	},
+	{
+		"name": "archive-view",
+		"version": "0.65.1"
+	},
+	{
+		"name": "atom-beautify",
+		"version": "0.33.0"
+	},
+	{
+		"name": "atom-dark-syntax",
+		"version": "0.29.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "atom-dark-ui",
+		"version": "0.53.2",
+		"theme": "ui"
+	},
+	{
+		"name": "atom-light-syntax",
+		"version": "0.29.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "atom-light-ui",
+		"version": "0.46.2",
+		"theme": "ui"
+	},
+	{
+		"name": "atom-quokka",
+		"version": "1.0.80"
+	},
+	{
+		"name": "atom-transpose",
+		"version": "0.3.5"
+	},
+	{
+		"name": "auto-update-packages",
+		"version": "1.0.1"
+	},
+	{
+		"name": "autocomplete-atom-api",
+		"version": "0.10.7"
+	},
+	{
+		"name": "autocomplete-css",
+		"version": "0.17.5"
+	},
+	{
+		"name": "autocomplete-html",
+		"version": "0.8.4"
+	},
+	{
+		"name": "autocomplete-modules",
+		"version": "2.1.0"
+	},
+	{
+		"name": "autocomplete-plus",
+		"version": "2.40.6"
+	},
+	{
+		"name": "autocomplete-python",
+		"version": "1.10.9"
+	},
+	{
+		"name": "autocomplete-snippets",
+		"version": "1.12.0"
+	},
+	{
+		"name": "autoflow",
+		"version": "0.29.4"
+	},
+	{
+		"name": "autosave",
+		"version": "0.24.6"
+	},
+	{
+		"name": "background-tips",
+		"version": "0.28.0"
+	},
+	{
+		"name": "base16-tomorrow-dark-theme",
+		"version": "1.5.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "base16-tomorrow-light-theme",
+		"version": "1.5.0",
+		"theme": "syntax"
+	},
+	{
+		"name": "bookmarks",
+		"version": "0.45.1"
+	},
+	{
+		"name": "bracket-matcher",
+		"version": "0.89.2"
+	},
+	{
+		"name": "busy-signal",
+		"version": "1.4.3"
+	},
+	{
+		"name": "clipboard-plus",
+		"version": "0.5.1"
+	},
+	{
+		"name": "command-palette",
+		"version": "0.43.5"
+	},
+	{
+		"name": "copy-path",
+		"version": "0.5.1"
+	},
+	{
+		"name": "dalek",
+		"version": "0.2.2"
+	},
+	{
+		"name": "deprecation-cop",
+		"version": "0.56.9"
+	},
+	{
+		"name": "dev-live-reload",
+		"version": "0.48.1"
+	},
+	{
+		"name": "docblockr",
+		"version": "0.13.7"
+	},
+	{
+		"name": "emmet",
+		"version": "2.4.3"
+	},
+	{
+		"name": "encoding-selector",
+		"version": "0.23.9"
+	},
+	{
+		"name": "exception-reporting",
+		"version": "0.43.1"
+	},
+	{
+		"name": "file-icons",
+		"version": "2.1.23"
+	},
+	{
+		"name": "find-and-replace",
+		"version": "0.215.12"
+	},
+	{
+		"name": "fuzzy-finder",
+		"version": "1.8.2"
+	},
+	{
+		"name": "git-diff",
+		"version": "1.3.9"
+	},
+	{
+		"name": "git-time-machine",
+		"version": "2.1.0"
+	},
+	{
+		"name": "github",
+		"version": "0.17.3"
+	},
+	{
+		"name": "go-to-line",
+		"version": "0.33.0"
+	},
+	{
+		"name": "grammar-selector",
+		"version": "0.50.1"
+	},
+	{
+		"name": "highlight-selected",
+		"version": "0.14.0"
+	},
+	{
+		"name": "hyperclick",
+		"version": "0.1.5"
+	},
+	{
+		"name": "hyperlink-hyperclick",
+		"version": "2.0.0"
+	},
+	{
+		"name": "image-view",
+		"version": "0.62.4"
+	},
+	{
+		"name": "incompatible-packages",
+		"version": "0.27.3"
+	},
+	{
+		"name": "intellij-idea-keymap",
+		"version": "0.2.3"
+	},
+	{
+		"name": "intentions",
+		"version": "1.1.5"
+	},
+	{
+		"name": "js-hyperclick",
+		"version": "1.13.3"
+	},
+	{
+		"name": "keybinding-resolver",
+		"version": "0.38.1"
+	},
+	{
+		"name": "language-babel",
+		"version": "2.85.0"
+	},
+	{
+		"name": "language-c",
+		"version": "0.59.10"
+	},
+	{
+		"name": "language-clojure",
+		"version": "0.22.7"
+	},
+	{
+		"name": "language-coffee-script",
+		"version": "0.49.3"
+	},
+	{
+		"name": "language-csharp",
+		"version": "1.0.4"
+	},
+	{
+		"name": "language-css",
+		"version": "0.42.11"
+	},
+	{
+		"name": "language-gfm",
+		"version": "0.90.5"
+	},
+	{
+		"name": "language-git",
+		"version": "0.19.1"
+	},
+	{
+		"name": "language-go",
+		"version": "0.45.4"
+	},
+	{
+		"name": "language-haskell",
+		"version": "1.17.8"
+	},
+	{
+		"name": "language-html",
+		"version": "0.50.1"
+	},
+	{
+		"name": "language-hyperlink",
+		"version": "0.16.3"
+	},
+	{
+		"name": "language-java",
+		"version": "0.30.0"
+	},
+	{
+		"name": "language-javascript",
+		"version": "0.128.8"
+	},
+	{
+		"name": "language-json",
+		"version": "0.19.2"
+	},
+	{
+		"name": "language-latex",
+		"version": "1.1.1"
+	},
+	{
+		"name": "language-less",
+		"version": "0.34.2"
+	},
+	{
+		"name": "language-make",
+		"version": "0.22.3"
+	},
+	{
+		"name": "language-mustache",
+		"version": "0.14.5"
+	},
+	{
+		"name": "language-objective-c",
+		"version": "0.15.1"
+	},
+	{
+		"name": "language-patch",
+		"version": "1.2.0"
+	},
+	{
+		"name": "language-perl",
+		"version": "0.38.1"
+	},
+	{
+		"name": "language-php",
+		"version": "0.44.0"
+	},
+	{
+		"name": "language-property-list",
+		"version": "0.9.1"
+	},
+	{
+		"name": "language-python",
+		"version": "0.50.1"
+	},
+	{
+		"name": "language-ruby",
+		"version": "0.71.4"
+	},
+	{
+		"name": "language-ruby-on-rails",
+		"version": "0.25.3"
+	},
+	{
+		"name": "language-sass",
+		"version": "0.62.0"
+	},
+	{
+		"name": "language-shellscript",
+		"version": "0.26.6"
+	},
+	{
+		"name": "language-source",
+		"version": "0.9.0"
+	},
+	{
+		"name": "language-sql",
+		"version": "0.25.10"
+	},
+	{
+		"name": "language-text",
+		"version": "0.7.4"
+	},
+	{
+		"name": "language-todo",
+		"version": "0.29.4"
+	},
+	{
+		"name": "language-toml",
+		"version": "0.18.2"
+	},
+	{
+		"name": "language-typescript",
+		"version": "0.3.4"
+	},
+	{
+		"name": "language-xml",
+		"version": "0.35.2"
+	},
+	{
+		"name": "language-yaml",
+		"version": "0.32.0"
+	},
+	{
+		"name": "line-ending-selector",
+		"version": "0.7.7"
+	},
+	{
+		"name": "link",
+		"version": "0.31.4"
+	},
+	{
+		"name": "linter",
+		"version": "2.2.0"
+	},
+	{
+		"name": "linter-eslint",
+		"version": "8.4.1"
+	},
+	{
+		"name": "linter-ui-default",
+		"version": "1.7.1"
+	},
+	{
+		"name": "linter-xo",
+		"version": "0.26.0"
+	},
+	{
+		"name": "markdown-preview",
+		"version": "0.159.20"
+	},
+	{
+		"name": "metrics",
+		"version": "1.2.8"
+	},
+	{
+		"name": "notifications",
+		"version": "0.70.5"
+	},
+	{
+		"name": "one-dark-syntax",
+		"version": "1.8.3",
+		"theme": "syntax"
+	},
+	{
+		"name": "one-dark-ui",
+		"version": "1.12.3",
+		"theme": "ui"
+	},
+	{
+		"name": "one-light-syntax",
+		"version": "1.8.3",
+		"theme": "syntax"
+	},
+	{
+		"name": "one-light-ui",
+		"version": "1.12.3",
+		"theme": "ui"
+	},
+	{
+		"name": "open-on-github",
+		"version": "1.3.1"
+	},
+	{
+		"name": "package-generator",
+		"version": "1.3.0"
+	},
+	{
+		"name": "pigments",
+		"version": "0.40.2"
+	},
+	{
+		"name": "platformio-ide-terminal",
+		"version": "2.8.4"
+	},
+	{
+		"name": "prettier-atom",
+		"version": "0.54.0"
+	},
+	{
+		"name": "project-manager",
+		"version": "3.3.6"
+	},
+	{
+		"name": "python-indent",
+		"version": "1.1.5"
+	},
+	{
+		"name": "settings-view",
+		"version": "0.255.0"
+	},
+	{
+		"name": "snippets",
+		"version": "1.3.3"
+	},
+	{
+		"name": "solarized-dark-syntax",
+		"version": "1.1.5",
+		"theme": "syntax"
+	},
+	{
+		"name": "solarized-light-syntax",
+		"version": "1.1.5",
+		"theme": "syntax"
+	},
+	{
+		"name": "sort-lines",
+		"version": "0.18.0"
+	},
+	{
+		"name": "spell-check",
+		"version": "0.73.5"
+	},
+	{
+		"name": "split-diff",
+		"version": "1.5.2"
+	},
+	{
+		"name": "status-bar",
+		"version": "1.8.15"
+	},
+	{
+		"name": "styleguide",
+		"version": "0.49.11"
+	},
+	{
+		"name": "symbols-view",
+		"version": "0.118.2"
+	},
+	{
+		"name": "sync-settings",
+		"version": "0.8.6"
+	},
+	{
+		"name": "tabs",
+		"version": "0.109.2"
+	},
+	{
+		"name": "teletype",
+		"version": "0.13.3"
+	},
+	{
+		"name": "timecop",
+		"version": "0.36.2"
+	},
+	{
+		"name": "tree-view",
+		"version": "0.222.0"
+	},
+	{
+		"name": "update-package-dependencies",
+		"version": "0.13.1"
+	},
+	{
+		"name": "welcome",
+		"version": "0.36.6"
+	},
+	{
+		"name": "whitespace",
+		"version": "0.37.6"
+	},
+	{
+		"name": "wrap-guide",
+		"version": "0.40.3"
+	},
+	{
+		"name": "zentabs",
+		"version": "0.8.9"
+	}
+]
