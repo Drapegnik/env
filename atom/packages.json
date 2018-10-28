@@ -4,12 +4,16 @@
 		"version": "1.9.1"
 	},
 	{
+		"name": "api-blueprint-preview",
+		"version": "0.7.0"
+	},
+	{
 		"name": "archive-view",
 		"version": "0.65.1"
 	},
 	{
 		"name": "atom-beautify",
-		"version": "0.33.0"
+		"version": "0.33.4"
 	},
 	{
 		"name": "atom-dark-syntax",
@@ -33,7 +37,7 @@
 	},
 	{
 		"name": "atom-quokka",
-		"version": "1.0.80"
+		"version": "1.0.103"
 	},
 	{
 		"name": "atom-transpose",
@@ -57,15 +61,15 @@
 	},
 	{
 		"name": "autocomplete-modules",
-		"version": "2.1.0"
+		"version": "2.2.4"
 	},
 	{
 		"name": "autocomplete-plus",
-		"version": "2.40.6"
+		"version": "2.40.7"
 	},
 	{
 		"name": "autocomplete-python",
-		"version": "1.10.9"
+		"version": "1.10.12"
 	},
 	{
 		"name": "autocomplete-snippets",
@@ -104,6 +108,10 @@
 	{
 		"name": "busy-signal",
 		"version": "1.4.3"
+	},
+	{
+		"name": "carbon-now-sh",
+		"version": "2.0.3"
 	},
 	{
 		"name": "clipboard-plus",
@@ -147,7 +155,7 @@
 	},
 	{
 		"name": "file-icons",
-		"version": "2.1.23"
+		"version": "2.1.26"
 	},
 	{
 		"name": "find-and-replace",
@@ -167,7 +175,7 @@
 	},
 	{
 		"name": "github",
-		"version": "0.17.3"
+		"version": "0.19.1"
 	},
 	{
 		"name": "go-to-line",
@@ -191,7 +199,7 @@
 	},
 	{
 		"name": "image-view",
-		"version": "0.62.4"
+		"version": "0.63.1"
 	},
 	{
 		"name": "incompatible-packages",
@@ -211,7 +219,11 @@
 	},
 	{
 		"name": "keybinding-resolver",
-		"version": "0.38.1"
+		"version": "0.38.2"
+	},
+	{
+		"name": "language-api-blueprint",
+		"version": "1.0.2"
 	},
 	{
 		"name": "language-babel",
@@ -219,7 +231,7 @@
 	},
 	{
 		"name": "language-c",
-		"version": "0.59.10"
+		"version": "0.60.4"
 	},
 	{
 		"name": "language-clojure",
@@ -247,7 +259,7 @@
 	},
 	{
 		"name": "language-go",
-		"version": "0.45.4"
+		"version": "0.46.2"
 	},
 	{
 		"name": "language-haskell",
@@ -255,7 +267,7 @@
 	},
 	{
 		"name": "language-html",
-		"version": "0.50.1"
+		"version": "0.51.5"
 	},
 	{
 		"name": "language-hyperlink",
@@ -267,7 +279,7 @@
 	},
 	{
 		"name": "language-javascript",
-		"version": "0.128.8"
+		"version": "0.129.9"
 	},
 	{
 		"name": "language-json",
@@ -275,7 +287,7 @@
 	},
 	{
 		"name": "language-latex",
-		"version": "1.1.1"
+		"version": "1.2.0"
 	},
 	{
 		"name": "language-less",
@@ -311,11 +323,11 @@
 	},
 	{
 		"name": "language-python",
-		"version": "0.50.1"
+		"version": "0.51.4"
 	},
 	{
 		"name": "language-ruby",
-		"version": "0.71.4"
+		"version": "0.72.7"
 	},
 	{
 		"name": "language-ruby-on-rails",
@@ -327,7 +339,7 @@
 	},
 	{
 		"name": "language-shellscript",
-		"version": "0.26.6"
+		"version": "0.27.4"
 	},
 	{
 		"name": "language-source",
@@ -351,7 +363,7 @@
 	},
 	{
 		"name": "language-typescript",
-		"version": "0.3.4"
+		"version": "0.4.6"
 	},
 	{
 		"name": "language-xml",
@@ -374,6 +386,10 @@
 		"version": "2.2.0"
 	},
 	{
+		"name": "linter-api-blueprint",
+		"version": "0.4.0"
+	},
+	{
 		"name": "linter-eslint",
 		"version": "8.4.1"
 	},
@@ -387,11 +403,11 @@
 	},
 	{
 		"name": "markdown-preview",
-		"version": "0.159.20"
+		"version": "0.159.23"
 	},
 	{
 		"name": "metrics",
-		"version": "1.2.8"
+		"version": "1.6.2"
 	},
 	{
 		"name": "notifications",
@@ -399,22 +415,22 @@
 	},
 	{
 		"name": "one-dark-syntax",
-		"version": "1.8.3",
+		"version": "1.8.4",
 		"theme": "syntax"
 	},
 	{
 		"name": "one-dark-ui",
-		"version": "1.12.3",
+		"version": "1.12.4",
 		"theme": "ui"
 	},
 	{
 		"name": "one-light-syntax",
-		"version": "1.8.3",
+		"version": "1.8.4",
 		"theme": "syntax"
 	},
 	{
 		"name": "one-light-ui",
-		"version": "1.12.3",
+		"version": "1.12.5",
 		"theme": "ui"
 	},
 	{
@@ -435,7 +451,7 @@
 	},
 	{
 		"name": "prettier-atom",
-		"version": "0.54.0"
+		"version": "0.55.2"
 	},
 	{
 		"name": "project-manager",
@@ -443,7 +459,7 @@
 	},
 	{
 		"name": "python-indent",
-		"version": "1.1.5"
+		"version": "1.1.6"
 	},
 	{
 		"name": "settings-view",
@@ -451,7 +467,7 @@
 	},
 	{
 		"name": "snippets",
-		"version": "1.3.3"
+		"version": "1.3.5"
 	},
 	{
 		"name": "solarized-dark-syntax",
@@ -469,11 +485,11 @@
 	},
 	{
 		"name": "spell-check",
-		"version": "0.73.5"
+		"version": "0.74.0"
 	},
 	{
 		"name": "split-diff",
-		"version": "1.5.2"
+		"version": "1.5.3"
 	},
 	{
 		"name": "status-bar",
@@ -481,7 +497,7 @@
 	},
 	{
 		"name": "styleguide",
-		"version": "0.49.11"
+		"version": "0.49.12"
 	},
 	{
 		"name": "symbols-view",
@@ -505,7 +521,7 @@
 	},
 	{
 		"name": "tree-view",
-		"version": "0.222.0"
+		"version": "0.224.2"
 	},
 	{
 		"name": "update-package-dependencies",
@@ -513,7 +529,7 @@
 	},
 	{
 		"name": "welcome",
-		"version": "0.36.6"
+		"version": "0.36.7"
 	},
 	{
 		"name": "whitespace",

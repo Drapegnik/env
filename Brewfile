@@ -1,6 +1,6 @@
-tap "homebrew/core"
-tap "homebrew/cask"
 tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
 tap "homebrew/services"
 brew "bash-completion"
 brew "exercism"
@@ -9,6 +9,7 @@ brew "git-recent"
 brew "haskell-stack"
 brew "mongodb", restart_service: true
 brew "nvm"
+brew "readline", link: true
 brew "thefuck"
 brew "yarn", args: ["without-node"]
 cask "atom"
