@@ -5,6 +5,8 @@ alias sr.='source ~/.bash_profile'
 alias pd='pwd'
 alias hy='history'
 alias ll='ls -la'
+# `go` override
+alias golang='command go'
 
 # git alias
 alias got='git '
@@ -49,7 +51,8 @@ alias fixmd='prettier --write $(find . -name "*.md" ! -path "*node_modules*")'
 eval $(thefuck --alias)
 
 # Shortcut function for creating custom git.io links.
-# See https://blog.github.com/2011-11-10-git-io-github-url-shortener/
+# gitlink https://github.com/Drapegnik jsx
+# See https://blog.github.com/2011-11-10-git-io-github-url-shortener
 gitlink() {
   # The first argument is the URL to shorten
   VALUES="-F \"url=$1\""
@@ -91,3 +94,11 @@ export PATH=$PATH:~/.local/bin
 
 # custom scripts
 export PATH=$PATH:~/bin
+
+# golang
+export GOPATH=$HOME/workspace/go
+
+# virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/bin/python3
+export WORKON_HOME=~/workspace/python/envs/
+source /usr/local/bin/virtualenvwrapper.sh
