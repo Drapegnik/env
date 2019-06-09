@@ -21,7 +21,7 @@ useful shortcuts for WebStorm [live templates feature](https://www.jetbrains.com
 > To start using this live templates simply put `.xml` file into your WebStorm live templates folder
 
 - **macOS**: `~/Library/Preferences/WebStorm<version number>/templates`
-- **Linux**: `~\.WebStorm<version number>\config\templates`
+- **Linux**: `~/.WebStorm<version number>/config/templates`
 - **Windows**: `<HOME>\.WebStorm<version number>\config\templates`
 
 > Open `Preferences` -> `Editor` -> `Live Templates` and modify templates for you
