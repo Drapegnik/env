@@ -56,6 +56,7 @@ sn() {
 
 # js
 alias fixmd='prettier --write $(find . -name "*.md" ! -path "*node_modules*")'
+alias parceldev='node ~/projects/drapegnik/parcel/packages/core/parcel/lib/cli.js'
 
 # the fuck config
 eval $(thefuck --alias)
@@ -87,6 +88,9 @@ if [ -f ~/.config/exercism/exercism_completion.bash ]; then
   . ~/.config/exercism/exercism_completion.bash
 fi
 
+# bash vars
+export HISTTIMEFORMAT='%d/%m/%y %T -> '
+
 # cli prefix format
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='[\u@mbp \w$(__git_ps1)]\$ '
@@ -109,6 +113,6 @@ export PATH=$PATH:~/bin
 export GOPATH=$HOME/workspace/go
 
 # virtualenvwrapper
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/bin/python3
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python3/3.7.2_2/Frameworks/Python.framework/Versions/3.7/bin/python3
 export WORKON_HOME=~/workspace/python/envs/
 source /usr/local/bin/virtualenvwrapper.sh
