@@ -1,4 +1,4 @@
-source ~/.profile
+# source ~/.profile
 
 # common alias
 alias sr.='source ~/.bash_profile'
@@ -8,7 +8,7 @@ alias ll='ls -la'
 alias cdd='cd ~/Desktop'
 
 # `go` override
-alias golang='command go'
+# alias golang='command go'
 
 # git alias
 alias gs='git status --short'
@@ -48,11 +48,11 @@ gst-drop() {
 alias npm-lsg='npm list -g --depth 0'
 
 # hackellstack
-alias sb='stack build --fast --file-watch'
+# alias sb='stack build --fast --file-watch'
 # stack new with params
-sn() {
-  stack new $1 ~/.stack/templates/empty.hsfiles -p 'path:rsschool-fp'
-}
+# sn() {
+#  stack new $1 ~/.stack/templates/empty.hsfiles -p 'path:rsschool-fp'
+# }
 
 # js
 alias fixmd='prettier --write $(find . -name "*.md" ! -path "*node_modules*")'
@@ -84,9 +84,9 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # exercism bash-completion
-if [ -f ~/.config/exercism/exercism_completion.bash ]; then
-  . ~/.config/exercism/exercism_completion.bash
-fi
+# if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+#  . ~/.config/exercism/exercism_completion.bash
+# fi
 
 # bash vars
 export HISTTIMEFORMAT='%d/%m/%y %T -> '
@@ -104,15 +104,15 @@ source $(brew --prefix nvm)/nvm.sh
 export NODE_ENV=development
 
 # haskell stack packages
-export PATH=$PATH:~/.local/bin
+# export PATH=$PATH:~/.local/bin
 
 # custom scripts
 export PATH=$PATH:~/bin
 
 # golang
-export GOPATH=$HOME/workspace/go
+# export GOPATH=$HOME/workspace/go
 
 # virtualenvwrapper
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python3/3.7.2_2/Frameworks/Python.framework/Versions/3.7/bin/python3
-export WORKON_HOME=~/workspace/python/envs/
-source /usr/local/bin/virtualenvwrapper.sh
+# export VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python3/3.7.2_2/Frameworks/Python.framework/Versions/3.7/bin/python3
+# export WORKON_HOME=~/workspace/python/envs/
+# source /usr/local/bin/virtualenvwrapper.sh

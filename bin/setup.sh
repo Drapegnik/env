@@ -4,7 +4,7 @@ set -u
 
 sudo -v
 
-excluded_paths=(".DS_Store" "README.md" "LICENSE")
+excluded_paths=(".DS_Store" "README.md" "LICENSE" ".ghci")
 
 for path in $(ls -a); do
     # only files
@@ -17,8 +17,8 @@ for path in $(ls -a); do
     fi
 done
 
-echo "> copy stack files in:\t~/.stack"
-cp -R .stack/. ~/.stack
+# echo "> copy stack files in:\t~/.stack"
+# cp -R .stack/. ~/.stack
 
 echo "> install brew packages:"
 brew bundle
