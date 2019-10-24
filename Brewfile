@@ -2,28 +2,44 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+
+####### CLI
 brew "bash-completion"
-# brew "exercism"
 brew "git"
 brew "git-recent"
-# brew "haskell-stack"
-# brew "mongodb", restart_service: true
 brew "nvm"
-# brew "readline", link: true
 brew "thefuck"
 brew "yarn"
-cask "atom"
-# cask "discord"
-# cask "folx"
-# cask "google-chrome"
-# cask "insomniax"
+# brew "readline", link: true
 # cask "ngrok"
-# cask "postman"
+
+####### DB
+cask "postico"
 # cask "robo-3t"
-# cask "skype"
-cask "slack"
-# cask "steam"
-cask "telegram-desktop"
+# brew "mongodb", restart_service: true
+
+####### EDITORS
+cask "atom"
 # cask "visual-studio-code"
-# cask "vlc"
+
+####### DEV
+cask "sourcetree"
+# cask "postman"
+# brew "exercism"
+# brew "haskell-stack"
+
+####### MESSENGERS
+cask "slack"
+cask "telegram-desktop"
+# cask "skype"
+# cask "discord"
+
+####### APPS
+# cask "google-chrome"
+# cask "steam"
+# cask "folx"
+
+####### MISC
 cask "yandex-disk"
+# cask "insomniax"
+# cask "vlc"
