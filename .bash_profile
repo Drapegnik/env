@@ -1,4 +1,4 @@
-# source ~/.profile
+source ~/.profile
 
 # common alias
 alias sr.='source ~/.bash_profile'
@@ -116,3 +116,8 @@ export PATH=$PATH:~/bin
 # export VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python3/3.7.2_2/Frameworks/Python.framework/Versions/3.7/bin/python3
 # export WORKON_HOME=~/workspace/python/envs/
 # source /usr/local/bin/virtualenvwrapper.sh
+
+# pyenv
+eval "$(pyenv init -)"
+# # auto-activation of virtualenvs
+eval "$(pyenv virtualenv-init -)"
