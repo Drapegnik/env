@@ -6,6 +6,7 @@ tap "homebrew/services"
 ####### <-----------------------------  CLI
 brew "bash-completion"
 brew "git"
+brew "git-lfs"
 brew "git-recent"
 brew "nvm"
 brew "pyenv"
@@ -13,9 +14,10 @@ brew "pyenv-virtualenv"
 brew "thefuck"
 brew "yarn"
 # brew "readline", link: true
-# cask "ngrok"
+cask "ngrok"
 # cask "osxfuse"
 # brew "sshfs"
+brew "tmux"
 
 ####### <----------------------------- DB
 cask "postico"
@@ -27,8 +29,8 @@ cask "atom"
 # cask "visual-studio-code"
 
 ####### <----------------------------- DEV
-cask "sourcetree"
 # cask "postman"
+# cask "staruml"
 # brew "exercism"
 # brew "haskell-stack"
 
@@ -40,6 +42,7 @@ cask "telegram-desktop"
 
 ####### <----------------------------- APPS
 # cask "google-chrome"
+# cask "chromium"
 # cask "steam"
 # cask "folx"
 
