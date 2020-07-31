@@ -1,4 +1,4 @@
-# Atom configs
+# atom configs
 
 works with [`sync-settings`](http://atom.io/packages/sync-settings)
 

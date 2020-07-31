@@ -1,0 +1,182 @@
+[
+  {
+    "metadata": {
+      "id": "5a6e2b21-1d61-4acd-b31b-907f9c23f18a",
+      "publisherId": "CoenraadS.bracket-pair-colorizer-2",
+      "publisherDisplayName": "CoenraadS"
+    },
+    "name": "bracket-pair-colorizer-2",
+    "publisher": "CoenraadS",
+    "version": "0.2.0"
+  },
+  {
+    "metadata": {
+      "id": "e337c67b-55c2-4fef-8949-eb260e7fb7fd",
+      "publisherId": "Shan.code-settings-sync",
+      "publisherDisplayName": "Shan"
+    },
+    "name": "code-settings-sync",
+    "publisher": "Shan",
+    "version": "3.4.3"
+  },
+  {
+    "metadata": {
+      "id": "f57f68ea-9ee8-42b5-9a97-041d3e4278c4",
+      "publisherId": "Dart-Code.dart-code",
+      "publisherDisplayName": "Dart-Code"
+    },
+    "name": "dart-code",
+    "publisher": "Dart-Code",
+    "version": "3.12.2"
+  },
+  {
+    "metadata": {
+      "id": "f60a60a6-95ba-42d4-b41c-3d24c1b89588",
+      "publisherId": "EditorConfig.EditorConfig",
+      "publisherDisplayName": "EditorConfig"
+    },
+    "name": "EditorConfig",
+    "publisher": "EditorConfig",
+    "version": "0.15.1"
+  },
+  {
+    "metadata": {
+      "id": "f6c3ec04-6057-4d9c-b997-69cba07a6158",
+      "publisherId": "Dart-Code.flutter",
+      "publisherDisplayName": "Dart-Code"
+    },
+    "name": "flutter",
+    "publisher": "Dart-Code",
+    "version": "3.12.2"
+  },
+  {
+    "metadata": {
+      "id": "d6f6cfea-4b6f-41f4-b571-6ad2ab7918da",
+      "publisherId": "golang.go",
+      "publisherDisplayName": "golang"
+    },
+    "name": "go",
+    "publisher": "golang",
+    "version": "0.15.2"
+  },
+  {
+    "metadata": {
+      "id": "96fa4707-6983-4489-b7c5-d5ffdfdcce90",
+      "publisherId": "esbenp.prettier-vscode",
+      "publisherDisplayName": "esbenp"
+    },
+    "name": "prettier-vscode",
+    "publisher": "esbenp",
+    "version": "5.1.3"
+  },
+  {
+    "metadata": {
+      "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
+      "publisherId": "ms-python.python",
+      "publisherDisplayName": "ms-python"
+    },
+    "name": "python",
+    "publisher": "ms-python",
+    "version": "2020.7.96456"
+  },
+  {
+    "metadata": {
+      "id": "93ce222b-5f6f-49b7-9ab1-a0463c6238df",
+      "publisherId": "ms-vscode-remote.remote-containers",
+      "publisherDisplayName": "ms-vscode-remote"
+    },
+    "name": "remote-containers",
+    "publisher": "ms-vscode-remote",
+    "version": "0.128.0"
+  },
+  {
+    "metadata": {
+      "id": "607fd052-be03-4363-b657-2bd62b83d28a",
+      "publisherId": "ms-vscode-remote.remote-ssh",
+      "publisherDisplayName": "ms-vscode-remote"
+    },
+    "name": "remote-ssh",
+    "publisher": "ms-vscode-remote",
+    "version": "0.51.0"
+  },
+  {
+    "metadata": {
+      "id": "bfeaf631-bcff-4908-93ed-fda4ef9a0c5c",
+      "publisherId": "ms-vscode-remote.remote-ssh-edit",
+      "publisherDisplayName": "ms-vscode-remote"
+    },
+    "name": "remote-ssh-edit",
+    "publisher": "ms-vscode-remote",
+    "version": "0.51.0"
+  },
+  {
+    "metadata": {
+      "id": "f0c5397b-d357-4197-99f0-cb4202f22818",
+      "publisherId": "ms-vscode-remote.remote-wsl",
+      "publisherDisplayName": "ms-vscode-remote"
+    },
+    "name": "remote-wsl",
+    "publisher": "ms-vscode-remote",
+    "version": "0.44.4"
+  },
+  {
+    "metadata": {
+      "id": "75da638c-c45a-44ea-aa3b-8570a3559810",
+      "publisherId": "TabNine.tabnine-vscode",
+      "publisherDisplayName": "TabNine"
+    },
+    "name": "tabnine-vscode",
+    "publisher": "TabNine",
+    "version": "2.9.0"
+  },
+  {
+    "metadata": {
+      "id": "38583aca-2ba1-417f-80fc-68ca8d717fb4",
+      "publisherId": "rbbit.typescript-hero",
+      "publisherDisplayName": "rbbit"
+    },
+    "name": "typescript-hero",
+    "publisher": "rbbit",
+    "version": "3.0.0"
+  },
+  {
+    "metadata": {
+      "id": "0479fc1c-3d67-49f9-b087-fb9069afe48f",
+      "publisherId": "ms-azuretools.vscode-docker",
+      "publisherDisplayName": "ms-azuretools"
+    },
+    "name": "vscode-docker",
+    "publisher": "ms-azuretools",
+    "version": "1.4.1"
+  },
+  {
+    "metadata": {
+      "id": "583b2b34-2c1e-4634-8c0b-0b82e283ea3a",
+      "publisherId": "dbaeumer.vscode-eslint",
+      "publisherDisplayName": "dbaeumer"
+    },
+    "name": "vscode-eslint",
+    "publisher": "dbaeumer",
+    "version": "2.1.8"
+  },
+  {
+    "metadata": {
+      "id": "23d72dfc-8dd1-4e30-926e-8783b4378f13",
+      "publisherId": "ms-vscode-remote.vscode-remote-extensionpack",
+      "publisherDisplayName": "ms-vscode-remote"
+    },
+    "name": "vscode-remote-extensionpack",
+    "publisher": "ms-vscode-remote",
+    "version": "0.20.0"
+  },
+  {
+    "metadata": {
+      "id": "9b2c953d-6ad4-46d1-b18e-7e5992d1d8a6",
+      "publisherId": "akamud.vscode-theme-onedark",
+      "publisherDisplayName": "akamud"
+    },
+    "name": "vscode-theme-onedark",
+    "publisher": "akamud",
+    "version": "2.2.2"
+  }
+]

@@ -1,0 +1,59 @@
+{
+    "editor.fontSize": 16,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+
+    "workbench.colorTheme": "Atom One Dark",
+    "terminal.integrated.fontSize": 13,
+    "window.zoomLevel": -1,
+    "search.useGlobalIgnoreFiles": true,
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/dist": false,
+        "**/*.pyc": {"when": "$(basename).py"}, 
+        "**/__pycache__": true,
+        "**/__init__.py": true
+    },
+
+    "javascript.format.enable": false,
+
+    "dart.flutterSdkPath": "/Users/drapegnik/Downloads/flutter",
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewHotReloadOnSaveWatcher": true,
+    "dart.enableCompletionCommitCharacters": true,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+
+    "explorer.confirmDragAndDrop": false,
+    "http.proxySupport": "off",
+    "C_Cpp.formatting": "Disabled",
+    "C_Cpp.updateChannel": "Insiders",
+
+    "prettier.trailingComma": "es5",
+    "prettier.singleQuote": true,
+    "prettier.arrowParens": "always",
+    "prettier.bracketSpacing": false,
+
+    "eslint.alwaysShowStatus": true,
+    "eslint.lintTask.enable": true,
+    "eslint.workingDirectories": [
+        {
+            "directory": "./launcher/ui",
+            "changeProcessCWD": true
+        },
+        {
+            "directory": "./client",
+            "changeProcessCWD": true
+        }
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.associations": {
+    
+    },
+    "tabnine.experimentalAutoImports": true,
+    "go.formatTool": "goimports",
+}
