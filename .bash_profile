@@ -7,8 +7,7 @@ alias hy='history'
 alias ll='ls -la'
 alias cdd='cd ~/Desktop'
 
-# `go` override
-# alias golang='command go'
+alias workon='pyenv activate'
 
 # git alias
 alias gs='git status --short'
@@ -25,7 +24,7 @@ alias gpu='git push -u origin HEAD'
 alias gpl='git pull'
 alias gplr='git pull --rebase'
 alias gd='git diff'
-alias go='git checkout'
+alias gco='git checkout'
 alias gu='git undo'
 alias gl='git log --oneline --graph --decorate -10 $*'
 alias gll='git log --oneline --graph --decorate $*'
@@ -109,8 +108,12 @@ export NODE_ENV=development
 # custom scripts
 export PATH=$PATH:~/bin
 
+# flutter
+export PATH=$PATH:~/projects/dev/flutter/bin
+
 # golang
-# export GOPATH=$HOME/workspace/go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 # virtualenvwrapper
 # export VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python3/3.7.2_2/Frameworks/Python.framework/Versions/3.7/bin/python3
@@ -121,3 +124,4 @@ export PATH=$PATH:~/bin
 eval "$(pyenv init -)"
 # # auto-activation of virtualenvs
 eval "$(pyenv virtualenv-init -)"
+source $(pyenv root)/completions/pyenv.bash
