@@ -120,8 +120,8 @@ export PATH=$PATH:$GOPATH/bin
 # export WORKON_HOME=~/workspace/python/envs/
 # source /usr/local/bin/virtualenvwrapper.sh
 
-# pyenv
-eval "$(pyenv init -)"
-# # auto-activation of virtualenvs
-eval "$(pyenv virtualenv-init -)"
-source $(pyenv root)/completions/pyenv.bash
+# # pyenv
+# eval "$(pyenv init -)"
+# # # auto-activation of virtualenvs
+# eval "$(pyenv virtualenv-init -)"
+# source $(pyenv root)/completions/pyenv.bash

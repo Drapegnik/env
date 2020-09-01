@@ -18,6 +18,7 @@ cask "ngrok"
 # cask "osxfuse"
 # brew "sshfs"
 brew "tmux"
+brew "rlwrap"
 
 ####### <----------------------------- DB
 cask "postico"
