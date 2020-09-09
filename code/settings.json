@@ -6,7 +6,7 @@
 
     "workbench.colorTheme": "Atom One Dark",
     "terminal.integrated.fontSize": 13,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "search.useGlobalIgnoreFiles": true,
     "files.exclude": {
         "**/.DS_Store": true,
@@ -47,13 +47,22 @@
             "changeProcessCWD": true
         }
     ],
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "graphql"],
+    "eslint.options": {
+      "extentions": [".js", ".graphql"]
+    },
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+
     "javascript.updateImportsOnFileMove.enabled": "never",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "files.associations": {
-    
+        "*.tsx": "typescriptreact"
     },
     "tabnine.experimentalAutoImports": true,
     "go.formatTool": "goimports",
+    "sync.gist": "693d47fa2dd75fa32ec4fef51aa2b692"
 }

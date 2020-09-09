@@ -21,16 +21,6 @@
   },
   {
     "metadata": {
-      "id": "f57f68ea-9ee8-42b5-9a97-041d3e4278c4",
-      "publisherId": "Dart-Code.dart-code",
-      "publisherDisplayName": "Dart-Code"
-    },
-    "name": "dart-code",
-    "publisher": "Dart-Code",
-    "version": "3.12.2"
-  },
-  {
-    "metadata": {
       "id": "f60a60a6-95ba-42d4-b41c-3d24c1b89588",
       "publisherId": "EditorConfig.EditorConfig",
       "publisherDisplayName": "EditorConfig"
@@ -41,23 +31,23 @@
   },
   {
     "metadata": {
-      "id": "f6c3ec04-6057-4d9c-b997-69cba07a6158",
-      "publisherId": "Dart-Code.flutter",
-      "publisherDisplayName": "Dart-Code"
-    },
-    "name": "flutter",
-    "publisher": "Dart-Code",
-    "version": "3.12.2"
-  },
-  {
-    "metadata": {
       "id": "d6f6cfea-4b6f-41f4-b571-6ad2ab7918da",
       "publisherId": "golang.go",
       "publisherDisplayName": "golang"
     },
     "name": "go",
     "publisher": "golang",
-    "version": "0.15.2"
+    "version": "0.18.1"
+  },
+  {
+    "metadata": {
+      "id": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8",
+      "publisherId": "ms-toolsai.jupyter",
+      "publisherDisplayName": "ms-toolsai"
+    },
+    "name": "jupyter",
+    "publisher": "ms-toolsai",
+    "version": "2020.11.372831992"
   },
   {
     "metadata": {
@@ -67,7 +57,7 @@
     },
     "name": "prettier-vscode",
     "publisher": "esbenp",
-    "version": "5.1.3"
+    "version": "5.8.0"
   },
   {
     "metadata": {
@@ -77,47 +67,17 @@
     },
     "name": "python",
     "publisher": "ms-python",
-    "version": "2020.7.96456"
+    "version": "2020.11.371526539"
   },
   {
     "metadata": {
-      "id": "93ce222b-5f6f-49b7-9ab1-a0463c6238df",
-      "publisherId": "ms-vscode-remote.remote-containers",
-      "publisherDisplayName": "ms-vscode-remote"
+      "id": "dda49fd5-1f3b-4d25-bf61-4fc41905ede5",
+      "publisherId": "humao.rest-client",
+      "publisherDisplayName": "humao"
     },
-    "name": "remote-containers",
-    "publisher": "ms-vscode-remote",
-    "version": "0.128.0"
-  },
-  {
-    "metadata": {
-      "id": "607fd052-be03-4363-b657-2bd62b83d28a",
-      "publisherId": "ms-vscode-remote.remote-ssh",
-      "publisherDisplayName": "ms-vscode-remote"
-    },
-    "name": "remote-ssh",
-    "publisher": "ms-vscode-remote",
-    "version": "0.51.0"
-  },
-  {
-    "metadata": {
-      "id": "bfeaf631-bcff-4908-93ed-fda4ef9a0c5c",
-      "publisherId": "ms-vscode-remote.remote-ssh-edit",
-      "publisherDisplayName": "ms-vscode-remote"
-    },
-    "name": "remote-ssh-edit",
-    "publisher": "ms-vscode-remote",
-    "version": "0.51.0"
-  },
-  {
-    "metadata": {
-      "id": "f0c5397b-d357-4197-99f0-cb4202f22818",
-      "publisherId": "ms-vscode-remote.remote-wsl",
-      "publisherDisplayName": "ms-vscode-remote"
-    },
-    "name": "remote-wsl",
-    "publisher": "ms-vscode-remote",
-    "version": "0.44.4"
+    "name": "rest-client",
+    "publisher": "humao",
+    "version": "0.24.4"
   },
   {
     "metadata": {
@@ -127,7 +87,7 @@
     },
     "name": "tabnine-vscode",
     "publisher": "TabNine",
-    "version": "2.9.0"
+    "version": "3.1.12"
   },
   {
     "metadata": {
@@ -147,7 +107,7 @@
     },
     "name": "vscode-docker",
     "publisher": "ms-azuretools",
-    "version": "1.4.1"
+    "version": "1.8.0"
   },
   {
     "metadata": {
@@ -157,17 +117,17 @@
     },
     "name": "vscode-eslint",
     "publisher": "dbaeumer",
-    "version": "2.1.8"
+    "version": "2.1.13"
   },
   {
     "metadata": {
-      "id": "23d72dfc-8dd1-4e30-926e-8783b4378f13",
-      "publisherId": "ms-vscode-remote.vscode-remote-extensionpack",
-      "publisherDisplayName": "ms-vscode-remote"
+      "id": "55ef6448-487b-49a0-a66e-4d2d9bb82229",
+      "publisherId": "GraphQL.vscode-graphql",
+      "publisherDisplayName": "GraphQL"
     },
-    "name": "vscode-remote-extensionpack",
-    "publisher": "ms-vscode-remote",
-    "version": "0.20.0"
+    "name": "vscode-graphql",
+    "publisher": "GraphQL",
+    "version": "0.3.12"
   },
   {
     "metadata": {
