@@ -4,50 +4,56 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 ####### <-----------------------------  CLI
-brew "bash-completion"
+# brew "bash-completion"
 brew "git"
 brew "git-lfs"
 brew "git-recent"
 brew "nvm"
-brew "pyenv"
-brew "pyenv-virtualenv"
-brew "thefuck"
-brew "yarn"
-# brew "readline", link: true
-cask "ngrok"
+# brew "pyenv"
+# brew "pyenv-virtualenv"
+# brew "yarn"
 # cask "osxfuse"
 # brew "sshfs"
-brew "tmux"
-brew "rlwrap"
+# brew "tmux"
+brew "thefuck"
+brew "m-cli"
 
 ####### <----------------------------- DB
-cask "postico"
+# cask "postico"
 # cask "robo-3t"
 # brew "mongodb", restart_service: true
 
-####### <----------------------------- EDITORS
-cask "atom"
-# cask "visual-studio-code"
-
 ####### <----------------------------- DEV
+cask "docker"
 # cask "postman"
 # cask "staruml"
 # brew "exercism"
 # brew "haskell-stack"
 
 ####### <----------------------------- MESSENGERS
-cask "slack"
+# cask "slack"
 cask "telegram-desktop"
+cask "viber"
+cask "microsoft-teams"
 # cask "skype"
-# cask "discord"
+cask "discord"
 
 ####### <----------------------------- APPS
-# cask "google-chrome"
+cask "visual-studio-code"
+cask "google-chrome"
+cask "github"
 # cask "chromium"
 # cask "steam"
-# cask "folx"
+cask "folx"
 
 ####### <----------------------------- MISC
 cask "yandex-disk"
 # cask "insomniax"
-# cask "vlc"
+cask "vlc"
+
+####### <----------------------------- HELPERS
+cask "ngrok"
+cask "numi"
+cask "boop"
+cask "ace-link"
+
