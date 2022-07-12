@@ -8,7 +8,7 @@ export ZSH="/Users/drapegnik/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME=""
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -72,23 +72,28 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     command-not-found
-    copydir
+    copypath
     docker
     jira
+    macos
     npm
     nvm
-    osx
     rsync
     thefuck
     vscode
     z
-    zsh_reload
     zsh-autosuggestions
+    zsh-npm-scripts-autocomplete
 )
 
 zstyle ':completion:*:*:make:*' tag-order 'targets'
 
 source $ZSH/oh-my-zsh.sh
+
+# pure theme: https://github.com/sindresorhus/pure
+fpath+=('/Users/drapegnik/.nvm/versions/node/v14.17.6/lib/node_modules/pure-prompt/functions')
+autoload -U promptinit; promptinit
+prompt pure
 
 # User configuration
 

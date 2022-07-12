@@ -6,7 +6,7 @@ tap "homebrew/services"
 ####### <-----------------------------  CLI
 # brew "bash-completion"
 brew "git"
-brew "git-lfs"
+# brew "git-lfs"
 brew "git-recent"
 brew "nvm"
 # brew "pyenv"
@@ -24,7 +24,7 @@ brew "m-cli"
 # brew "mongodb", restart_service: true
 
 ####### <----------------------------- DEV
-cask "docker"
+# cask "docker"
 # cask "postman"
 # cask "staruml"
 # brew "exercism"
@@ -33,27 +33,28 @@ cask "docker"
 ####### <----------------------------- MESSENGERS
 # cask "slack"
 cask "telegram-desktop"
-cask "viber"
-cask "microsoft-teams"
+# cask "viber"
+# cask "microsoft-teams"
 # cask "skype"
-cask "discord"
+# cask "discord"
 
 ####### <----------------------------- APPS
 cask "visual-studio-code"
 cask "google-chrome"
-cask "github"
+# cask "github"
+cask "spotify"
 # cask "chromium"
 # cask "steam"
-cask "folx"
+# cask "folx"
 
 ####### <----------------------------- MISC
-cask "yandex-disk"
+# cask "yandex-disk"
 # cask "insomniax"
-cask "vlc"
+# cask "vlc"
 
 ####### <----------------------------- HELPERS
 cask "ngrok"
 cask "numi"
 cask "boop"
-cask "ace-link"
+# cask "ace-link"
 
