@@ -44,3 +44,7 @@
 # 	driver = npx npm-merge-driver merge %A %O %B %P
 [rerere]
 	enabled = true
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main

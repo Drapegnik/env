@@ -15,7 +15,7 @@ brew "nvm"
 # cask "osxfuse"
 # brew "sshfs"
 # brew "tmux"
-brew "thefuck"
+# brew "thefuck"
 brew "m-cli"
 
 ####### <----------------------------- DB
@@ -26,26 +26,29 @@ brew "m-cli"
 ####### <----------------------------- DEV
 # cask "docker"
 # cask "postman"
+# cask "openvpn-connect"
 # cask "staruml"
 # brew "exercism"
 # brew "haskell-stack"
 
 ####### <----------------------------- MESSENGERS
 # cask "slack"
-cask "telegram-desktop"
-# cask "viber"
+# cask "telegram-desktop"
+# cask "whatsapp"
 # cask "microsoft-teams"
+# cask "viber"
 # cask "skype"
 # cask "discord"
 
 ####### <----------------------------- APPS
-cask "visual-studio-code"
-cask "google-chrome"
+# cask "visual-studio-code"
+# cask "google-chrome"
 # cask "github"
-cask "spotify"
+# cask "spotify"
 # cask "chromium"
 # cask "steam"
 # cask "folx"
+cask "deepl"
 
 ####### <----------------------------- MISC
 # cask "yandex-disk"
@@ -53,7 +56,7 @@ cask "spotify"
 # cask "vlc"
 
 ####### <----------------------------- HELPERS
-cask "ngrok"
+# cask "ngrok"
 cask "numi"
 cask "boop"
 # cask "ace-link"
