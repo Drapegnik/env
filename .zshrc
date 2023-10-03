@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/ivanpazhytnykh/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -90,8 +90,11 @@ zstyle ':completion:*:*:make:*' tag-order 'targets'
 
 source $ZSH/oh-my-zsh.sh
 
+fpath+=($ZSH/plugins/docker)
+
 # pure theme: https://github.com/sindresorhus/pure
-fpath+=('/Users/drapegnik/.nvm/versions/node/v14.17.6/lib/node_modules/pure-prompt/functions')
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
+
 autoload -U promptinit; promptinit
 prompt pure
 
@@ -143,3 +146,6 @@ alias grb='git rebase'
 alias grc='git rebase --continue'
 alias grs='git rebase --skip'
 alias grh='git reset --hard'
+
+# kubernetes
+source <(kubectl completion zsh)

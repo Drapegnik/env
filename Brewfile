@@ -24,12 +24,13 @@ brew "m-cli"
 # brew "mongodb", restart_service: true
 
 ####### <----------------------------- DEV
-# cask "docker"
-# cask "postman"
+cask "docker"
+cask "postman"
 # cask "openvpn-connect"
 # cask "staruml"
 # brew "exercism"
 # brew "haskell-stack"
+brew "fx"
 
 ####### <----------------------------- MESSENGERS
 # cask "slack"
@@ -41,10 +42,10 @@ brew "m-cli"
 # cask "discord"
 
 ####### <----------------------------- APPS
-# cask "visual-studio-code"
+cask "visual-studio-code"
 # cask "google-chrome"
 # cask "github"
-# cask "spotify"
+cask "spotify"
 # cask "chromium"
 # cask "steam"
 # cask "folx"
