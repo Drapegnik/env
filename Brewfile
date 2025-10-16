@@ -1,8 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-tap "homebrew/services"
-
 ####### <-----------------------------  CLI
 # brew "bash-completion"
 brew "git"
@@ -17,6 +12,12 @@ brew "nvm"
 # brew "tmux"
 # brew "thefuck"
 brew "m-cli"
+brew "pure"
+brew "gifsicle"
+brew "ffmpeg"
+brew "awscli"
+brew "podman"
+brew "kubectl"
 
 ####### <----------------------------- DB
 # cask "postico"
@@ -24,7 +25,8 @@ brew "m-cli"
 # brew "mongodb", restart_service: true
 
 ####### <----------------------------- DEV
-cask "docker"
+# cask "docker-desktop"
+cask "podman-desktop"
 cask "postman"
 # cask "openvpn-connect"
 # cask "staruml"
@@ -60,5 +62,6 @@ cask "deepl"
 # cask "ngrok"
 cask "numi"
 cask "boop"
+cask "keka"
 # cask "ace-link"
 

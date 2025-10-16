@@ -4,7 +4,7 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 [user]
-	name = Ivan Pazhitnykh
+	name = Ivan Pazhytnykh
 	email = ivan.pazhitnykh@gmail.com
 [core]
 	autocrlf = false

@@ -71,9 +71,11 @@ ZSH_THEME=""
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    git
+    ssh
     command-not-found
     copypath
-    docker
+    # docker
     jira
     macos
     npm
@@ -83,20 +85,19 @@ plugins=(
     vscode
     z
     zsh-autosuggestions
-    zsh-npm-scripts-autocomplete
 )
 
 zstyle ':completion:*:*:make:*' tag-order 'targets'
 
-source $ZSH/oh-my-zsh.sh
-
-fpath+=($ZSH/plugins/docker)
+# fpath+=($ZSH/plugins/docker)
 
 # pure theme: https://github.com/sindresorhus/pure
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 
 autoload -U promptinit; promptinit
 prompt pure
+
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -112,12 +113,15 @@ prompt pure
 #   export EDITOR='mvim'
 # fi
 
+# brew
+HOMEBREW_PREFIX=$(brew --prefix)
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"
+[ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && . "$HOMEBREW_PREFIX/opt/nvm/nvm.sh"
 # This loads nvm bash_completion
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+[ -s "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] && . "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -125,6 +129,13 @@ export NVM_DIR="$HOME/.nvm"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# common aliases
+alias sr.='source ~/.zshrc'
+alias pd='pwd'
+alias hy='history'
+alias ll='ls -la'
+alias cdd='cd ~/Desktop'
 
 # git aliases
 alias gs='git status --short'
@@ -146,6 +157,9 @@ alias grb='git rebase'
 alias grc='git rebase --continue'
 alias grs='git rebase --skip'
 alias grh='git reset --hard'
+
+# helpers
+alias video_to_gif='function video_to_gif(){ ffmpeg -i "$1" "${1%.*}.gif" && gifsicle -O3 "${1%.*}.gif" -o "${1%.*}.gif" && osascript -e "display notification \"${1%.*}.gif successfully converted and saved\" with title \"MOV2GIF SUCCESS!\""};video_to_gif'
 
 # kubernetes
 source <(kubectl completion zsh)
